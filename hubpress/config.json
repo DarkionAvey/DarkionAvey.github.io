@@ -6,12 +6,12 @@
     "cname": ""
   },
   "theme": {
-    "name": "saga"
+    "name": "uno-zen"
   },
   "urls": {
     "site": "https://DarkionAvey.github.io",
     "hubpress": "https://darkionavey.github.io",
-    "theme": "//DarkionAvey.github.io/themes/roon",
+    "theme": "//DarkionAvey.github.io/themes/saga",
     "images": "https://DarkionAvey.github.io/images"
   },
   "initialisationConfigComponent": {
