@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Darkion Avey]]></title><description><![CDATA[Various articles written by Darkion Avey throughout the years]]></description><link>https://DarkionAvey.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 15 Nov 2019 21:58:55 GMT</lastBuildDate><atom:link href="https://DarkionAvey.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Creating an automated CPP videos analyzer using ImageJ]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Darkion Avey]]></title><description><![CDATA[Various articles written by Darkion Avey throughout the years]]></description><link>https://DarkionAvey.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 15 Nov 2019 22:03:46 GMT</lastBuildDate><atom:link href="https://DarkionAvey.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Creating an automated CPP videos analyzer using ImageJ]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>Conditioned place preference (CPP) paradigm is used to test drug addiction in mice. The mouse is placed inside the apparatus, and time spent in compartments is measured. The design isn&#8217;t standard, it comes in many varieties. In my case, the box had three compartments — black and white compartments on the sides, and grey-ish one in-between.</p>
@@ -130,7 +130,42 @@ This threshold value will be applied to all frames. The app then starts analyzin
 <p>Hit <em>Run</em> and enjoy your new textures.</p>
 </li>
 </ol>
-</div>]]></description><link>https://DarkionAvey.github.io/2015/07/22/How-to-use-tex.html</link><guid isPermaLink="true">https://DarkionAvey.github.io/2015/07/22/How-to-use-tex.html</guid><category><![CDATA[TexMod]]></category><category><![CDATA[TPF]]></category><dc:creator><![CDATA[Darkion Avey]]></dc:creator><pubDate>Wed, 22 Jul 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[Completely disable HUD in Dragon age: Inquisition]]></title><description><![CDATA[<div class="paragraph">
+</div>]]></description><link>https://DarkionAvey.github.io/2015/07/22/How-to-use-tex.html</link><guid isPermaLink="true">https://DarkionAvey.github.io/2015/07/22/How-to-use-tex.html</guid><category><![CDATA[TexMod]]></category><category><![CDATA[TPF]]></category><dc:creator><![CDATA[Darkion Avey]]></dc:creator><pubDate>Wed, 22 Jul 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[Dragon age: Inquisition 60 FPS mod]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>This guide helps you uncap cutscenes frame rate.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Open your Origin library, and right-click on Dragon Age Inquisition icon (the cover art).</p>
+</li>
+<li>
+<p>Select <em>"Game Properties&#8230;&#8203;"</em>.</p>
+</li>
+<li>
+<p>In the <em>"Command line argument"</em> field, add the following code and then click <em>"OK"</em></p>
+<div class="literalblock">
+<div class="content">
+<pre>-GameTime.MaxSimFps 60 -GameTime.ForceSimRate 60+</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Launch the game and enjoy</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_known_issue">Known issue</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This mod causes rubber-band effect when playing multiplayer</p>
+</div>
+</div>
+</div>]]></description><link>https://DarkionAvey.github.io/2014/11/21/Dragon-age-Inquisition-60-FPS-mod.html</link><guid isPermaLink="true">https://DarkionAvey.github.io/2014/11/21/Dragon-age-Inquisition-60-FPS-mod.html</guid><category><![CDATA[DAI]]></category><dc:creator><![CDATA[Darkion Avey]]></dc:creator><pubDate>Fri, 21 Nov 2014 00:00:00 GMT</pubDate></item><item><title><![CDATA[Completely disable HUD in Dragon age: Inquisition]]></title><description><![CDATA[<div class="paragraph">
 <p>Follow the guide below to toggle HUD visibility without the need for another app (e.g. CheatEngine). This will hide all overlays including menus.</p>
 </div>
 <div class="olist arabic">
