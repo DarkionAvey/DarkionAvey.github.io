@@ -31,7 +31,7 @@
   "site": {
     "title": "Darkion Avey",
     "description": "Various articles written by Darkion Avey throughout the years",
-    "logo": "https://raw.githubusercontent.com/DarkionAvey/DarkionAvey.github.io/master/images/logo.svg",
+    "logo": "/images/logo.svg",
     "cover": "",
     "delay": "",
     "postsPerPage": "",
