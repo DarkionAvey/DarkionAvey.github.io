@@ -6,12 +6,12 @@
     "cname": ""
   },
   "theme": {
-    "name": "uno"
+    "name": "ghostium"
   },
   "urls": {
     "site": "https://DarkionAvey.github.io",
     "hubpress": "https://darkionavey.github.io",
-    "theme": "//DarkionAvey.github.io/themes/casper",
+    "theme": "//DarkionAvey.github.io/themes/uno",
     "images": "https://DarkionAvey.github.io/images"
   },
   "initialisationConfigComponent": {
