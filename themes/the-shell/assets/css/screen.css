@@ -299,7 +299,7 @@ button, input, select, textarea {
   border-radius: 50%;
   font-size: 0px;
   overflow: hidden;
-  display: block;
+  display: none;
   margin: 0 auto;
   border: none; }
   #blog-logo:before {
