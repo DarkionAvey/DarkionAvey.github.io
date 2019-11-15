@@ -1,4 +1,4 @@
-= 🎂
+= Hello world 
 :published_at: 2011-06-01
 
-Hello world!
+🎂
