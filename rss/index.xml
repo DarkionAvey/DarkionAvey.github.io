@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Darkion Avey]]></title><description><![CDATA[Various articles written by Darkion Avey throughout the years]]></description><link>https://DarkionAvey.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 15 Nov 2019 23:39:09 GMT</lastBuildDate><atom:link href="https://DarkionAvey.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Creating an automated CPP videos analyzer using ImageJ]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Darkion Avey]]></title><description><![CDATA[Various articles written by Darkion Avey throughout the years]]></description><link>https://DarkionAvey.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 15 Nov 2019 23:48:40 GMT</lastBuildDate><atom:link href="https://DarkionAvey.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Creating an automated CPP videos analyzer using ImageJ]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>Conditioned place preference (CPP) paradigm is used to test drug addiction in mice. The mouse is placed inside the apparatus, and time spent in compartments is measured. The design isn&#8217;t standard, it comes in many varieties. In my case, the box had three compartments — black and white compartments on the sides, and grey-ish one in-between.</p>
@@ -323,7 +323,7 @@ R 0.9999999</pre>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_getting_the_outfit_me2_only">Getting the outfit (ME2 only) :</h2>
+<h2 id="_getting_the_outfit_me2_only">Getting the outfit (ME2 only)</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>First of all, you&#8217;ll need to edit your <em>Coalesced.ini</em> in order to have Miranda&#8217;s outfit for your female Shepard, to do so:</p>
@@ -404,7 +404,7 @@ TorsoAppearances=(Id=1073,Type=CustomizableType_Torso,Mesh= Male="BIOG_HMF_MIR_L
 </div>
 </div>
 <div class="sect1">
-<h2 id="_remove_neck_clipping_me2_only">Remove neck clipping (ME2 only):</h2>
+<h2 id="_remove_neck_clipping_me2_only">Remove neck clipping (ME2 only)</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Now that you have the outfit and the skin tone, it&#8217;s time to remove the neck clipping that occurs when you apply Miranda&#8217;s outfit on FemShep.</p>
