@@ -298,10 +298,11 @@ button, input, select, textarea {
 #blog-logo {
   width: 100px;
   border-radius: 50%;
+  font-size: 0px;
   overflow: hidden;
   display: block;
   margin: 0 auto;
-  border: 5px solid #bf6165; }
+  border: none; }
   #blog-logo:before {
     width: 100px;
     height: 100px;
