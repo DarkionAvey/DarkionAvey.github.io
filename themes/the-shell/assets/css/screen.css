@@ -769,3 +769,6 @@ Copyright (c) 2012 Dan Eden
 .bounceInDown {
   -webkit-animation-name: bounceInDown;
   animation-name: bounceInDown; }
+section.post-content em {
+    color: #ff0;
+}
