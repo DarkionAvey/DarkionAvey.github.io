@@ -56,7 +56,7 @@ body {
   text-shadow: none; }
 
 ::selection {
-  color: rgba(0, 0, 0, 0.65);
+  color: #000;
   background: #88ff23;
   text-shadow: none; }
 
@@ -140,7 +140,7 @@ blockquote {
   blockquote small {
     display: inline-block;
     margin: 0.8em 0 0.8em 1.5em;
-    font-size: 0.9em;
+    font-size: 1em;
     color: #ccc; }
     blockquote small:before {
       content: '\2014 \00A0'; }
@@ -207,7 +207,7 @@ kbd {
   border: #ccc 1px solid;
   color: #666;
   text-shadow: #fff 0 1px 0;
-  font-size: 0.9em;
+  font-size: 1em;
   font-weight: bold;
   background: #f4f4f4;
   border-radius: 4px;
@@ -366,7 +366,7 @@ button, input, select, textarea {
       text-decoration: none; }
   .post-excerpt p {
     margin: 1.6rem 0 0 0;
-    font-size: 0.9em;
+    font-size: 1em;
     line-height: 1.6em; }
   .post-meta {
     display: inline-block;
@@ -614,7 +614,7 @@ button, input, select, textarea {
     line-height: 1.5em; }
 
   .post {
-    font-size: 0.9em;
+    font-size: 1em;
     line-height: 1.6em; }
 
   .post-template .post {
