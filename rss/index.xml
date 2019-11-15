@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Darkion Avey]]></title><description><![CDATA[Various articles written by Darkion Avey throughout the years]]></description><link>https://DarkionAvey.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 15 Nov 2019 22:45:05 GMT</lastBuildDate><atom:link href="https://DarkionAvey.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Creating an automated CPP videos analyzer using ImageJ]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Darkion Avey]]></title><description><![CDATA[Various articles written by Darkion Avey throughout the years]]></description><link>https://DarkionAvey.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 15 Nov 2019 23:20:22 GMT</lastBuildDate><atom:link href="https://DarkionAvey.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Creating an automated CPP videos analyzer using ImageJ]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>Conditioned place preference (CPP) paradigm is used to test drug addiction in mice. The mouse is placed inside the apparatus, and time spent in compartments is measured. The design isn&#8217;t standard, it comes in many varieties. In my case, the box had three compartments — black and white compartments on the sides, and grey-ish one in-between.</p>
@@ -263,6 +263,172 @@ SelectiveSuspendEnabled</pre>
 <p>Whenever the frame rate drops below 60, you will experience "slow-mo" mode</p>
 </div>
 </div>
-</div>]]></description><link>https://DarkionAvey.github.io/2014/01/05/Need-for-Speed-Rivals-60-FPS-mod.html</link><guid isPermaLink="true">https://DarkionAvey.github.io/2014/01/05/Need-for-Speed-Rivals-60-FPS-mod.html</guid><category><![CDATA[NFS]]></category><dc:creator><![CDATA[Darkion Avey]]></dc:creator><pubDate>Sun, 05 Jan 2014 00:00:00 GMT</pubDate></item><item><title><![CDATA[Hello world]]></title><description><![CDATA[<div class="paragraph">
+</div>]]></description><link>https://DarkionAvey.github.io/2014/01/05/Need-for-Speed-Rivals-60-FPS-mod.html</link><guid isPermaLink="true">https://DarkionAvey.github.io/2014/01/05/Need-for-Speed-Rivals-60-FPS-mod.html</guid><category><![CDATA[NFS]]></category><dc:creator><![CDATA[Darkion Avey]]></dc:creator><pubDate>Sun, 05 Jan 2014 00:00:00 GMT</pubDate></item><item><title><![CDATA[Mass Effect 2: adjust Miranda's skin tone]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_prerequisites">Prerequisites</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Back up your COALESCED file and your save files before proceeding</p>
+</li>
+<li>
+<p>Download <em>Gibbed&#8217;s Mass Effect 2 Save Editor</em> <a href="https://mohuskyrex.com/mass-effect-2-gibbed-save-editor/">from here</a></p>
+</li>
+<li>
+<p>Download Ruby <a href="http://www.ruby-lang.org/en/">from here</a></p>
+</li>
+<li>
+<p>Download Notepad++ <a href="https://notepad-plus-plus.org/downloads/">from here</a></p>
+</li>
+<li>
+<p>Download the required TexMod file from here</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_getting_the_skin_tone">Getting the skin tone</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Launch Gibbed.MassEffect2.SaveEdit.exe</p>
+</li>
+<li>
+<p>In order to open your save file, click on the folder icon on the upper left, another window will show up asking you to choose the folder in which your saved game is, select the folder, then you will be able to see the save files, select the one you want to edit</p>
+</li>
+<li>
+<p>To get the skin tone click on <em>Raw</em> tab, then from <em>2.squad</em> select <em>player</em>, then <em>appearance</em>, after that <em>morph head</em>, and <em>vector parameters</em></p>
+</li>
+<li>
+<p>You will now be able to see the skin tone field in the second line. Click on it, then enter the following values:</p>
+<div class="literalblock">
+<div class="content">
+<pre>A 1
+B 0.2759729
+G 0.5592241
+R 0.9999999</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Click OK. now you&#8217;ll need to save the adjustment you&#8217;ve made on the save file. To do that, click on the floppy disk icon on the upper left corner, and overwrite the exact save file you just edited then exit the save editor</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><em>(The tutorial ends here for Mass Effect 3, as Miranda&#8217;s outfit doesn&#8217;t work properly on ME3)</em></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_getting_the_outfit_me2_only">Getting the outfit (ME2 only) :</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>First of all, you&#8217;ll need to edit your <em>Coalesced.ini</em> in order to have Miranda&#8217;s outfit for your female Shepard, to do so:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Launch Notepad++</p>
+</li>
+<li>
+<p>Open your <em>Coalesced.ini</em> file which is located in the <em>"BioGame"</em> folder where you installed your game.</p>
+</li>
+<li>
+<p>Add the following codes to the respective subsection:</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>To <strong>[SFXGame.SFXPawn_Player]</strong></p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>HelmetAppearances=(Id=#,Type=CustomizableType_Helmet,GameEffects=			("SFXGame.SFXGameEffect_Gear_N7Helmet"),PlotFlag=-1)ShoulderAppearances=(Id=#,Type=CustomizableType_Shoulders,GameEffects=("SFXGame.SFXGameEffect_Gear_N7Shoulders"),PlotFlag=-1) ArmAppearances=(Id=#,Type=CustomizableType_Arms,GameEffects=("SFXGame.SFXGameEffect_Gear_N7Arms"),PlotFlag=-1)
+LegAppearances=(Id=#,Type=CustomizableType_Legs,GameEffects=("SFXGame.SFXGameEffect_Gear_N7Legs"),PlotFlag=-1)</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>To <strong>[SFXGame.SFXPawn_Player]</strong></p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>CasualAppearances=(Id=1073,Type=CustomizableType_Torso,Mesh=(Male="BIOG_HMF_MIR_LGT_R.LGTa.HMF_MIR_LGTa_MDL",Female="BIOG_HMF_MIR_LGT_R.LGTa.HMF_MIR_LGTa_MDL"),PlotFlag=-1)
+TorsoAppearances=(Id=1073,Type=CustomizableType_Torso,Mesh= Male="BIOG_HMF_MIR_LGT_R.LGTa.HMF_MIR_LGTa_MDL",Female ="BIOG_HMF_MIR_LGT_R.LGTa.HMF_MIR_LGTa_MDL"),PlotFlag=-1)</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>To <strong>[SFXGameModeDefault]</strong></p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>Bindings=( Name="NumPadOne" ,Command="OnlyLoadLevel BioD_Nor_000Cabin | OnTap 2.0 showmenu | OnTap 3.0 OpenGUI Personalization" )</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Finally, add the following to <strong>[SFXGameModeBase]</strong> &amp; <strong>[SFXGameModeDefault]</strong></p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>Bindings=( Name="NumPadFive", Command="Onlyloadlevel BioH_vixen_00 | Onlyloadlevel BioD_EndGm1_110ROMMirranda")</pre>
+</div>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="4">
+<li>
+<p>Save your <em>Coalesced.ini</em> and exit Notepad++.</p>
+</li>
+<li>
+<p>You&#8217;ll be able to "wear" the outfit by pressing <em>NumPadOne</em> at first then <em>NumPadFive</em>. Make sure to move all the sliders to the right then to the left in order to get the full appearance. You can change the binding key to your liking from the codes above</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Your <em>Coalesced.ini</em> is not yet ready to be used in the game yet, you&#8217;ll need to run a fixer "Ruby-based".</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="6">
+<li>
+<p>Extract <em>CoalescedrealCRC</em> to the same directory where your <em>Coalesced.ini</em> is located, and run it. It won&#8217;t take long until another <em>Coalesced.ini</em> shows up with the name Fix_Coalesced.ini.</p>
+</li>
+<li>
+<p>Delete the old <em>Coalesced.ini</em> and rename <em>Fix_Coalesced.ini</em> to <em>Coalesced.ini</em></p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Now that you have the outfit, we&#8217;ll move on to the next step.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_remove_neck_clipping_me2_only">Remove neck clipping (ME2 only):</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Now that you have the outfit and the skin tone, it&#8217;s time to remove the neck clipping that occurs when you apply Miranda&#8217;s outfit on FemShep.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Open TexMod</p>
+</li>
+<li>
+<p>Click on the folder icon and select <em>Masseffect2.exe</em> located in the Binaries folder from the install directory</p>
+</li>
+<li>
+<p>Click on it and select the mod <em>CerberusShepard.tpf</em>. This mod will only give you the black outfit. To get the white outfit without visible neck clipping, you&#8217;ll have to do an extra step.</p>
+</li>
+<li>
+<p>For white outfit: load <em>BBWI.tpf</em> first then <em>CerberusShepard.tpf</em>. Make sure that the mod <em>BBWI</em> is above <em>CerberusShepard</em>. The mod BBWI also changes the texture of Normandy&#8217;s floor and adds texture to Shepard&#8217;s bed.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>You will have to use TexMod every time you want to play Mass Effect 2 because the effect of the TexMod is not permanent.</p>
+</div>
+</div>
+</div>]]></description><link>https://DarkionAvey.github.io/2011/08/12/Mass-Effect-2-adjust-Mirandas-skin-tone.html</link><guid isPermaLink="true">https://DarkionAvey.github.io/2011/08/12/Mass-Effect-2-adjust-Mirandas-skin-tone.html</guid><category><![CDATA[Mass effect]]></category><dc:creator><![CDATA[Darkion Avey]]></dc:creator><pubDate>Fri, 12 Aug 2011 00:00:00 GMT</pubDate></item><item><title><![CDATA[Hello world]]></title><description><![CDATA[<div class="paragraph">
 <p>🎂</p>
 </div>]]></description><link>https://DarkionAvey.github.io/2011/06/01/Hello-world.html</link><guid isPermaLink="true">https://DarkionAvey.github.io/2011/06/01/Hello-world.html</guid><dc:creator><![CDATA[Darkion Avey]]></dc:creator><pubDate>Wed, 01 Jun 2011 00:00:00 GMT</pubDate></item></channel></rss>
