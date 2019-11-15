@@ -1,0 +1,11 @@
+= Defect detection using MatLab
+:published_at: 2017-07-05
+:hp-tags: MatLab,
+
+This code detects any defect (e.g. textile or liquid defects) using image processing in different kinds of images.
+
+You can download the code https://github.com/DarkionAvey/DarkionAvey.github.io/blob/master/files/Defect_detection_jalab.zip?raw=true[from here]. 
+
+This code was made by Zouhir Wakaf and Hamid A. Jalab, and is licensed under a http://creativecommons.org/licenses/by-nc-nd/4.0/[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International] license.
+
+
