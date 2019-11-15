@@ -6,12 +6,12 @@
     "cname": ""
   },
   "theme": {
-    "name": "ghostium"
+    "name": "ichi"
   },
   "urls": {
     "site": "https://DarkionAvey.github.io",
     "hubpress": "https://darkionavey.github.io",
-    "theme": "//DarkionAvey.github.io/themes/uno",
+    "theme": "//DarkionAvey.github.io/themes/ghostium",
     "images": "https://DarkionAvey.github.io/images"
   },
   "initialisationConfigComponent": {
