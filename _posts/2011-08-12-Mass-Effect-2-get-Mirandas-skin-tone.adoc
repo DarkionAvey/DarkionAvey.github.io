@@ -7,7 +7,7 @@
 . Download _Gibbed's Mass Effect 2 Save Editor_ https://mohuskyrex.com/mass-effect-2-gibbed-save-editor/[from here]
 . Download Ruby http://www.ruby-lang.org/en/[from here]
 . Download Notepad++ https://notepad-plus-plus.org/downloads/[from here]
-. Download the required TexMod file [https://github.com/DarkionAvey/DarkionAvey.github.io/blob/master/files/miranda_me2.zip?raw=true]from here. This file contains _CoalescedrealCRC.rb_, _bbwi.tpf_, and _CerberusShepard.tpf_ which are required later in the tutorial
+. Download the required TexMod file https://github.com/DarkionAvey/DarkionAvey.github.io/blob/master/files/miranda_me2.zip?raw=true[from here]. This file contains _CoalescedrealCRC.rb_, _bbwi.tpf_, and _CerberusShepard.tpf_ which are required later in the tutorial
 
 
 
