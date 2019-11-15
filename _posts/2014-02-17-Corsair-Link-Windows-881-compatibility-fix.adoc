@@ -1,0 +1,26 @@
+= Corsair Link Windows 8/8.1 compatibility fix
+:published_at: 2014-02-17
+:hp-tags: Corsair
+
+
+Corsair Link software seems to be broken after Windows 8.1 update. Fortunately, there is a fix.
+
+. Hit the start menu, and type _"regedit"_ (Registry editor). Right-click it, then choose _"run as administrator"_ to gain the needed privileges.
+ . From the left side folder tree, navigate to the following key:
+ 
+ HKLM\SYSTEM\CurrentControlSet\Enum\USB\VID_1B1C&PID_0C04
+ 
+. Navigate to _"Device Parameters"_
+
+. Change the following DWORD values from 1 to 0
+
+  AllowIdleIrpInD3
+DeviceSelectiveSuspended
+EnhancedPowerManagementEnabled
+SelectiveSuspendEnabled
+
+. Do this for every sub folder inside _"VID_1B1C&PID_0C04"_. In my case, it's just one folder.
+
+. Restart your machine
+
+After restarting, you will notice that the missing LED controls and fan controls are visible again.
