@@ -1,0 +1,14 @@
+= Completely disable HUD in Dragon age: Inquisition
+:published_at: 2014-11-09
+:hp-tags: Dragon Age, Mod
+
+Follow the guide below to toggle HUD visibility without the need for another app (e.g. CheatEngine). This will hide all overlays including menus. 
+
+. Press tilde key on your keyboard "~" to enable the console
+. Type 
+
+   UI
+   
+. Press `tab` key to auto complete the code
+. Type `0` to disable HUD, or `1` to enable it.
+
