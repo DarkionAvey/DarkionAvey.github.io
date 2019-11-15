@@ -11,7 +11,7 @@
   "urls": {
     "site": "https://DarkionAvey.github.io",
     "hubpress": "https://darkionavey.github.io",
-    "theme": "//DarkionAvey.github.io/themes/uno-zen",
+    "theme": "//DarkionAvey.github.io/themes/uno",
     "images": "https://DarkionAvey.github.io/images"
   },
   "initialisationConfigComponent": {
