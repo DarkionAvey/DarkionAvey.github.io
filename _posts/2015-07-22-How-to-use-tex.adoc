@@ -1,4 +1,4 @@
-= [PC] HOW TO USE TEXMOD
+= How to use TexMod on Windows PC
 :published_at: 2015-07-22
 :hp-tags: TexMod, TPF
 :hp-alt-title: How to use tex
