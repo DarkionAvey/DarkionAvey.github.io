@@ -1,1 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Darkion Avey]]></title><description><![CDATA[Various articles written by Darkion Avey throughout the years]]></description><link>https://DarkionAvey.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 15 Nov 2019 19:43:05 GMT</lastBuildDate><atom:link href="https://DarkionAvey.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Darkion Avey]]></title><description><![CDATA[Various articles written by Darkion Avey throughout the years]]></description><link>https://DarkionAvey.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 15 Nov 2019 19:55:18 GMT</lastBuildDate><atom:link href="https://DarkionAvey.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[[PC] HOW TO USE TEXMOD]]></title><description><![CDATA[<div class="paragraph">
+<p>TexMod is an old tool made to replace the textures of any Dx9 game without modifying the original files of the game. Follow the steps below to get going:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Download TexMod from other sources (file is no longer hosted on this domain)</p>
+</li>
+<li>
+<p>Launch the application. Note: anti-virus applications might label TexMod as a virus, which is not. This happens because TexMod modifies DirectX files during runtime just like a virus would modify the system.</p>
+</li>
+<li>
+<p>Click on the yellow folder icon, and select your game <em>exe</em> file. Note: some games (such as Mass Effect 2, The Witcher 2 and most games released early 2010&#8217;s) have a launcher application, you have to select the game <em>exe</em> file and not the launcher <em>exe</em> .</p>
+</li>
+<li>
+<p>Click on the small folder icon to browse and select your TexMod files (<em>TPF</em> files).</p>
+</li>
+<li>
+<p>Hit <em>Run</em> and enjoy your new textures.</p>
+</li>
+</ol>
+</div>]]></description><link>https://DarkionAvey.github.io/2015/07/22/How-to-use-tex.html</link><guid isPermaLink="true">https://DarkionAvey.github.io/2015/07/22/How-to-use-tex.html</guid><category><![CDATA[TexMod]]></category><category><![CDATA[TPF]]></category><dc:creator><![CDATA[Darkion Avey]]></dc:creator><pubDate>Wed, 22 Jul 2015 00:00:00 GMT</pubDate></item></channel></rss>
