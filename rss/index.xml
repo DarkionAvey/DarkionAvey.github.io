@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Darkion Avey]]></title><description><![CDATA[Various articles written by Darkion Avey throughout the years]]></description><link>https://DarkionAvey.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 15 Nov 2019 21:33:30 GMT</lastBuildDate><atom:link href="https://DarkionAvey.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Creating an automated CPP videos analyzer using ImageJ]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Darkion Avey]]></title><description><![CDATA[Various articles written by Darkion Avey throughout the years]]></description><link>https://DarkionAvey.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 15 Nov 2019 21:44:02 GMT</lastBuildDate><atom:link href="https://DarkionAvey.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Creating an automated CPP videos analyzer using ImageJ]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>Conditioned place preference (CPP) paradigm is used to test drug addiction in mice. The mouse is placed inside the apparatus, and time spent in compartments is measured. The design isn&#8217;t standard, it comes in many varieties. In my case, the box had three compartments — black and white compartments on the sides, and grey-ish one in-between.</p>
@@ -58,7 +58,58 @@ This threshold value will be applied to all frames. The app then starts analyzin
 <p>The picture above shows a bad example of thresholding because the tail is visible, and minute artifacts can be seen at the lower edge. It&#8217;s for the best if you provided clean images.</p>
 </div>
 </div>
-</div>]]></description><link>https://DarkionAvey.github.io/2016/12/04/Creating-an-automated-CPP-videos-analyzer-using-ImageJ.html</link><guid isPermaLink="true">https://DarkionAvey.github.io/2016/12/04/Creating-an-automated-CPP-videos-analyzer-using-ImageJ.html</guid><category><![CDATA[ImageJ]]></category><category><![CDATA[CPP]]></category><dc:creator><![CDATA[Darkion Avey]]></dc:creator><pubDate>Sun, 04 Dec 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[How to use TexMod on Windows PC]]></title><description><![CDATA[<div class="paragraph">
+</div>]]></description><link>https://DarkionAvey.github.io/2016/12/04/Creating-an-automated-CPP-videos-analyzer-using-ImageJ.html</link><guid isPermaLink="true">https://DarkionAvey.github.io/2016/12/04/Creating-an-automated-CPP-videos-analyzer-using-ImageJ.html</guid><category><![CDATA[ImageJ]]></category><category><![CDATA[CPP]]></category><dc:creator><![CDATA[Darkion Avey]]></dc:creator><pubDate>Sun, 04 Dec 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[RippleMaster Xposed module]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>This module brings back the old ripple effect seen in Android 5. Between Android 6 and 9 (😉), ripple effect isn&#8217;t shown until you lift your finger off  the screen. Luckily, they decided to bring it back in Android 9.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_compatibility">Compatibility</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This module requires Android 5-based ROM and above (until 9). It was tested and developed on Android 6.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_available_options">Available options</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Hide ripple waves [Android 6+]</p>
+</li>
+<li>
+<p>Hide background fade effect [Android 6+]</p>
+</li>
+<li>
+<p>Change animation interpolator [Android 6+]</p>
+</li>
+<li>
+<p>Tint ripple based on app&#8217;s accent color</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_download">Download</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You can get the module from Xposed repository <a href="http://repo.xposed.info/module/net.darkion.ripple.master">here</a>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_known_issue">Known issue</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Preferences are ignored and default values are used in certain apps (such as settings app) when SELinux is set to enforcing. The problem lies within Xposed preference class 🤷</p>
+</div>
+</div>
+</div>]]></description><link>https://DarkionAvey.github.io/2015/12/15/Ripple-Master-Xposed-module.html</link><guid isPermaLink="true">https://DarkionAvey.github.io/2015/12/15/Ripple-Master-Xposed-module.html</guid><category><![CDATA[Android]]></category><category><![CDATA[Xposed]]></category><dc:creator><![CDATA[Darkion Avey]]></dc:creator><pubDate>Tue, 15 Dec 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[How to use TexMod on Windows PC]]></title><description><![CDATA[<div class="paragraph">
 <p>TexMod is an old tool made to replace the textures of any Dx9 game without modifying the original files of the game. Follow the steps below to get going:</p>
 </div>
 <div class="olist arabic">
