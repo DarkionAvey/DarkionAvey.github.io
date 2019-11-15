@@ -1,0 +1,21 @@
+= RippleMaster Xposed module
+:published_at: 2015-12-15
+:hp-tags: Android, Xposed
+
+
+This module brings back the old ripple effect seen in Android 5. Between Android 6 and 9 (😉), ripple effect isn't shown until you lift your finger off  the screen. Luckily, they decided to bring it back in Android 9. 
+
+== Compatibility
+This module requires Android 5-based ROM and above (until 9). It was tested and developed on Android 6.
+
+== Available options
+* Hide ripple waves [Android 6+]
+* Hide background fade effect [Android 6+]
+* Change animation interpolator [Android 6+]
+* Tint ripple based on app's accent color
+
+== Download
+You can get the module from Xposed repository http://repo.xposed.info/module/net.darkion.ripple.master[here].
+
+== Known issue
+Preferences are ignored and default values are used in certain apps (such as settings app) when SELinux is set to enforcing. The problem lies within Xposed preference class 🤷
