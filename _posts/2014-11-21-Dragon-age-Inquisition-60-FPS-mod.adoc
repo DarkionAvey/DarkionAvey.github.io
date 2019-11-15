@@ -1,0 +1,17 @@
+= Dragon age: Inquisition 60 FPS mod
+:published_at: 2014-11-21
+:hp-tags: DAI
+
+This guide helps you uncap cutscenes frame rate. 
+
+. Open your Origin library, and right-click on Dragon Age Inquisition icon (the cover art).
+. Select _"Game Properties..."_.
+. In the _"Command line argument"_ field, add the following code and then click _"OK"_
+
+  -GameTime.MaxSimFps 60 -GameTime.ForceSimRate 60+
+  
+
+. Launch the game and enjoy
+
+== Known issue
+This mod causes rubber-band effect when playing multiplayer
