@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Darkion Avey]]></title><description><![CDATA[Various articles written by Darkion Avey throughout the years]]></description><link>https://DarkionAvey.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 15 Nov 2019 22:37:33 GMT</lastBuildDate><atom:link href="https://DarkionAvey.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Creating an automated CPP videos analyzer using ImageJ]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Darkion Avey]]></title><description><![CDATA[Various articles written by Darkion Avey throughout the years]]></description><link>https://DarkionAvey.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 15 Nov 2019 22:40:50 GMT</lastBuildDate><atom:link href="https://DarkionAvey.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Creating an automated CPP videos analyzer using ImageJ]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>Conditioned place preference (CPP) paradigm is used to test drug addiction in mice. The mouse is placed inside the apparatus, and time spent in compartments is measured. The design isn&#8217;t standard, it comes in many varieties. In my case, the box had three compartments — black and white compartments on the sides, and grey-ish one in-between.</p>
@@ -194,7 +194,7 @@ This threshold value will be applied to all frames. The app then starts analyzin
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Hit the start menu, and type <em>"regedit"</em> (Registry editor). Right-click it, then choose <em>"run as administrator"</em> to gain the needed privileges.</p>
+<p>Hit the start menu, and type <em>"regedit"</em> (Registry editor). Right-click it, then choose <em>"run as administrator"</em> to gain the needed privileges</p>
 </li>
 <li>
 <p>From the left side folder tree, navigate to the following key:</p>
@@ -263,4 +263,4 @@ SelectiveSuspendEnabled</pre>
 <p>Whenever the frame rate drops below 60, you will experience "slow-mo" mode</p>
 </div>
 </div>
-</div>]]></description><link>https://DarkionAvey.github.io/2014/01/05/Need-for-Speed-Rivals-60-FPS-mod.html</link><guid isPermaLink="true">https://DarkionAvey.github.io/2014/01/05/Need-for-Speed-Rivals-60-FPS-mod.html</guid><category><![CDATA[NFS]]></category><dc:creator><![CDATA[Darkion Avey]]></dc:creator><pubDate>Sun, 05 Jan 2014 00:00:00 GMT</pubDate></item></channel></rss>
+</div>]]></description><link>https://DarkionAvey.github.io/2014/01/05/Need-for-Speed-Rivals-60-FPS-mod.html</link><guid isPermaLink="true">https://DarkionAvey.github.io/2014/01/05/Need-for-Speed-Rivals-60-FPS-mod.html</guid><category><![CDATA[NFS]]></category><dc:creator><![CDATA[Darkion Avey]]></dc:creator><pubDate>Sun, 05 Jan 2014 00:00:00 GMT</pubDate></item><item><title><![CDATA[🎂]]></title><link>https://DarkionAvey.github.io2011-06-01.adoc</link><guid isPermaLink="true">https://DarkionAvey.github.io2011-06-01.adoc</guid><dc:creator><![CDATA[Darkion Avey]]></dc:creator><pubDate>Wed, 01 Jun 2011 00:00:00 GMT</pubDate></item></channel></rss>
