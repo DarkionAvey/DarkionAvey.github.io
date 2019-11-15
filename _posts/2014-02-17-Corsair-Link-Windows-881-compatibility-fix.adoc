@@ -14,12 +14,12 @@ Corsair Link software seems to be broken after Windows 8.1 update. Fortunately, 
 
 . Change the following DWORD values from 1 to 0
 
-  AllowIdleIrpInD3
-DeviceSelectiveSuspended
-EnhancedPowerManagementEnabled
-SelectiveSuspendEnabled
+ AllowIdleIrpInD3
+ DeviceSelectiveSuspended
+ EnhancedPowerManagementEnabled
+ SelectiveSuspendEnabled
 
-. Do this for every sub folder inside _"VID_1B1C&PID_0C04"_. In my case, it's just one folder.
+ . Do this for every sub folder inside _"VID_1B1C&PID_0C04"_. In my case, it's just one folder.
 
 . Restart your machine
 
