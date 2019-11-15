@@ -10,3 +10,6 @@
   -GameTime.MaxSimFps 60 -GameTime.ForceSimRate 60+
   
 . Launch the game from the shortcut
+
+== Known issue
+Whenever the frame rate drops below 60, you will experience "slow-mo" mode
