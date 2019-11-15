@@ -1,0 +1,12 @@
+= Need for Speed Rivals 60 FPS mod
+:published_at: 2014-01-05
+:hp-tags: NFS
+
+. Locate the game _NFS14.exe_ file. Usually, it's located in your Origin library (_C:\Program Files (x86)\Origin Games\Need for Speed(TM) Rivals\_)
+. Create a shortcut of the _exe_ file by right-clicking it > send to > desktop (create a shortcut)
+. Right click on the shortcut, and then click on _properties_.
+. In the _target_ field, add the following code at the end (after the " quotation mark)
+
+  -GameTime.MaxSimFps 60 -GameTime.ForceSimRate 60+
+  
+. Launch the game from the shortcut
