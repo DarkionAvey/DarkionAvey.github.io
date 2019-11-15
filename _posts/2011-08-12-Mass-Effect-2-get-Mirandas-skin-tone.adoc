@@ -28,7 +28,7 @@
 _(The tutorial ends here for Mass Effect 3, as Miranda's outfit doesn't work properly on ME3)_
 
 
-== Getting the outfit (ME2 only) :
+== Getting the outfit (ME2 only)
 
 First of all, you'll need to edit your _Coalesced.ini_ in order to have Miranda's outfit for your female Shepard, to do so:
 
@@ -85,7 +85,7 @@ Your _Coalesced.ini_ is not yet ready to be used in the game yet, you'll need to
 Now that you have the outfit, we'll move on to the next step.
 
 
-== Remove neck clipping (ME2 only):
+== Remove neck clipping (ME2 only)
 
 Now that you have the outfit and the skin tone, it's time to remove the neck clipping that occurs when you apply Miranda's outfit on FemShep.
 
