@@ -1,0 +1,106 @@
+= Mass Effect 2: adjust Miranda's skin tone
+:published_at: 2011-08-12
+:hp-tags: Mass effect
+
+== Prerequisites
+. Back up your COALESCED file and your save files before proceeding
+. Download _Gibbed's Mass Effect 2 Save Editor_ https://mohuskyrex.com/mass-effect-2-gibbed-save-editor/[from here]
+. Download Ruby http://www.ruby-lang.org/en/[from here]
+. Download Notepad++ https://notepad-plus-plus.org/downloads/[from here]
+. Download the required TexMod file from here
+
+
+
+== Getting the skin tone
+
+. Launch Gibbed.MassEffect2.SaveEdit.exe 
+. In order to open your save file, click on the folder icon on the upper left, another window will show up asking you to choose the folder in which your saved game is, select the folder, then you will be able to see the save files, select the one you want to edit
+. To get the skin tone click on _Raw_ tab, then from _2.squad_ select _player_, then _appearance_, after that _morph head_, and _vector parameters_
+. You will now be able to see the skin tone field in the second line. Click on it, then enter the following values:
+
+	A 1
+	B 0.2759729
+	G 0.5592241
+	R 0.9999999
+
+. Click OK. now you'll need to save the adjustment you've made on the save file. To do that, click on the floppy disk icon on the upper left corner, and overwrite the exact save file you just edited then exit the save editor
+
+_(The tutorial ends here for Mass Effect 3, as Miranda's outfit doesn't work properly on ME3)_
+
+
+== Getting the outfit (ME2 only) :
+
+First of all, you'll need to edit your _Coalesced.ini_ in order to have Miranda's outfit for your female Shepard, to do so:
+
+. Launch Notepad++
+. Open your _Coalesced.ini_ file which is located in the _"BioGame"_ folder where you installed your game.
+. Add the following codes to the respective subsection: 
+
+To *[SFXGame.SFXPawn_Player]*
+
+	HelmetAppearances=(Id=#,Type=CustomizableType_Helmet,GameEffects=			("SFXGame.SFXGameEffect_Gear_N7Helmet"),PlotFlag=-1)ShoulderAppearances=(Id=#,Type=CustomizableType_Shoulders,GameEffects=("SFXGame.SFXGameEffect_Gear_N7Shoulders"),PlotFlag=-1) ArmAppearances=(Id=#,Type=CustomizableType_Arms,GameEffects=("SFXGame.SFXGameEffect_Gear_N7Arms"),PlotFlag=-1)
+	LegAppearances=(Id=#,Type=CustomizableType_Legs,GameEffects=("SFXGame.SFXGameEffect_Gear_N7Legs"),PlotFlag=-1)
+
+
+To *[SFXGame.SFXPawn_Player]*
+
+ CasualAppearances=(Id=1073,Type=CustomizableType_Torso,Mesh=(Male="BIOG_HMF_MIR_LGT_R.LGTa.HMF_MIR_LGTa_MDL",Female="BIOG_HMF_MIR_LGT_R.LGTa.HMF_MIR_LGTa_MDL"),PlotFlag=-1) 
+ TorsoAppearances=(Id=1073,Type=CustomizableType_Torso,Mesh= Male="BIOG_HMF_MIR_LGT_R.LGTa.HMF_MIR_LGTa_MDL",Female ="BIOG_HMF_MIR_LGT_R.LGTa.HMF_MIR_LGTa_MDL"),PlotFlag=-1) 
+ 
+ 
+ 
+ 
+    
+    
+To *[SFXGameModeDefault]* 
+
+
+
+
+
+	Bindings=( Name="NumPadOne" ,Command="OnlyLoadLevel BioD_Nor_000Cabin | OnTap 2.0 showmenu | OnTap 3.0 OpenGUI Personalization" )
+    
+    
+
+
+Finally, add the following to *[SFXGameModeBase]* & *[SFXGameModeDefault]*
+
+
+	Bindings=( Name="NumPadFive", Command="Onlyloadlevel BioH_vixen_00 | Onlyloadlevel BioD_EndGm1_110ROMMirranda")
+
+
+[start=4]
+. Save your _Coalesced.ini_ and exit Notepad++.
+
+. You'll be able to "wear" the outfit by pressing _NumPadOne_ at first then _NumPadFive_. Make sure to move all the sliders to the right then to the left in order to get the full appearance. You can change the binding key to your liking from the codes above
+
+
+Your _Coalesced.ini_ is not yet ready to be used in the game yet, you'll need to run a fixer "Ruby-based".
+
+[start=6]
+. Extract _CoalescedrealCRC_ to the same directory where your _Coalesced.ini_ is located, and run it. It won't take long until another _Coalesced.ini_ shows up with the name Fix_Coalesced.ini.
+
+. Delete the old _Coalesced.ini_ and rename _Fix_Coalesced.ini_ to _Coalesced.ini_
+
+Now that you have the outfit, we'll move on to the next step.
+
+
+== Remove neck clipping (ME2 only):
+
+Now that you have the outfit and the skin tone, it's time to remove the neck clipping that occurs when you apply Miranda's outfit on FemShep.
+
+. Open TexMod
+
+. Click on the folder icon and select _Masseffect2.exe_ located in the Binaries folder from the install directory
+
+. Click on it and select the mod _CerberusShepard.tpf_. This mod will only give you the black outfit. To get the white outfit without visible neck clipping, you'll have to do an extra step.
+
+. For white outfit: load _BBWI.tpf_ first then _CerberusShepard.tpf_. Make sure that the mod _BBWI_ is above _CerberusShepard_. The mod BBWI also changes the texture of Normandy's floor and adds texture to Shepard's bed.
+
+You will have to use TexMod every time you want to play Mass Effect 2 because the effect of the TexMod is not permanent.
+
+
+
+
+
+
