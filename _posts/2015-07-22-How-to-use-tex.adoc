@@ -1,0 +1,22 @@
+= [PC] HOW TO USE TEXMOD
+:published_at: 2015-07-22
+:hp-tags: TexMod, TPF
+:hp-alt-title: How to use tex
+
+// See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
+
+
+TexMod is an old tool made to replace the textures of any Dx9 game without modifying the original files of the game. Follow the steps below to get going:
+
+
+. Download TexMod from other sources (file is no longer hosted on this domain)
+
+. Launch the application. Note: anti-virus applications might label TexMod as a virus, which is not. This happens because TexMod modifies DirectX files during runtime just like a virus would modify the system.
+
+. Click on the yellow folder icon, and select your game _exe_ file. Note: some games (such as Mass Effect 2, The Witcher 2 and most games released early 2010's) have a launcher application, you have to select the game _exe_ file and not the launcher _exe_ .
+
+. Click on the small folder icon to browse and select your TexMod files (_TPF_ files).
+
+. Hit _Run_ and enjoy your new textures.
+
+
