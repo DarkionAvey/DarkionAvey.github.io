@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <script>
+        // UNCOMMENT AND USE YOUR VARIABLES FOR DISQUS AND GOOGLE ANALYTICS
+        // var d_id  = '',
+        //     g_id  = 'UA-XXXXXXXX-X', // Format: UA-########-#, Example: UA-11220899-1
+        //     g_url = 'XXXXXXX.XXX' // Format: #####.####, Example: webdesignporto.com
+    </script>
+
+    <title>Corsair Link Windows 8/8.1 compatibility fix</title>
+    <meta name="description" content="" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="//DarkionAvey.github.io/themes/the-shell/assets/highlighter/prettify.css?v=1573857430377" />
+    <link rel="stylesheet" type="text/css" href="//DarkionAvey.github.io/themes/the-shell/assets/css/screen.css?v=1573857430377" />
+
+    <link rel="canonical" href="https://DarkionAvey.github.io/2014/02/17/Corsair-Link-Windows-881-compatibility-fix.html" />
+    <meta name="referrer" content="origin" />
+    
+    <meta property="og:site_name" content="Darkion Avey" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Corsair Link Windows 8/8.1 compatibility fix" />
+    <meta property="og:description" content="Corsair Link software seems to be broken after Windows 8.1 update. Fortunately, there is a fix. Hit the start menu, and type &quot;regedit&quot; (Registry editor). Right-click it, then choose &quot;run as administrator&quot; to gain the needed privileges. From the left side folder tree, navigate to the following key: HKLM\" />
+    <meta property="og:url" content="https://DarkionAvey.github.io/2014/02/17/Corsair-Link-Windows-881-compatibility-fix.html" />
+    <meta property="article:published_time" content="2014-02-17T00:00:00.000Z" />
+    <meta property="article:tag" content="Corsair" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Corsair Link Windows 8/8.1 compatibility fix" />
+    <meta name="twitter:description" content="Corsair Link software seems to be broken after Windows 8.1 update. Fortunately, there is a fix. Hit the start menu, and type &quot;regedit&quot; (Registry editor). Right-click it, then choose &quot;run as administrator&quot; to gain the needed privileges. From the left side folder tree, navigate to the following key: HKLM\" />
+    <meta name="twitter:url" content="https://DarkionAvey.github.io/2014/02/17/Corsair-Link-Windows-881-compatibility-fix.html" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "Darkion Avey",
+    "author": {
+        "@type": "Person",
+        "name": "Darkion Avey",
+        "image": "https://avatars1.githubusercontent.com/u/11511782?v=4",
+        "url": "https://DarkionAvey.github.io/author/DarkionAvey/",
+        "sameAs": "http://darkion.net",
+        "description": "Aesthetics and animations"
+    },
+    "headline": "Corsair Link Windows 8/8.1 compatibility fix",
+    "url": "https://DarkionAvey.github.io/2014/02/17/Corsair-Link-Windows-881-compatibility-fix.html",
+    "datePublished": "2014-02-17T00:00:00.000Z",
+    "keywords": "Corsair",
+    "description": "Corsair Link software seems to be broken after Windows 8.1 update. Fortunately, there is a fix. Hit the start menu, and type &quot;regedit&quot; (Registry editor). Right-click it, then choose &quot;run as administrator&quot; to gain the needed privileges. From the left side folder tree, navigate to the following key: HKLM\\"
+}
+    </script>
+
+    <meta name="generator" content="HubPress" />
+    <link rel="alternate" type="application/rss+xml" title="Darkion Avey" href="https://DarkionAvey.github.io/rss/" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/prism/1.14.0/themes/prism-okaidia.min.css">
+    
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+</head>
+<body class="post-template tag-Corsair">
+
+    
+
+<main class="content" role="main">
+
+    <article class="post tag-Corsair">
+
+        <header class="post-header">
+            <a id="blog-logo" href="https://DarkionAvey.github.io">
+                    Darkion Avey
+            </a>
+        </header>
+
+
+        <span class="post-meta"><time datetime="2014-02-17">17 Feb 2014</time> on <a href="https://DarkionAvey.github.io/tag/Corsair/">Corsair</a></span>
+
+        <h1 class="post-title">Corsair Link Windows 8/8.1 compatibility fix</h1>
+
+        <section class="post-content">
+            <div class="paragraph">
+<p>Corsair Link software seems to be broken after Windows 8.1 update. Fortunately, there is a fix.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Hit the start menu, and type <em>"regedit"</em> (Registry editor). Right-click it, then choose <em>"run as administrator"</em> to gain the needed privileges.</p>
+</li>
+<li>
+<p>From the left side folder tree, navigate to the following key:</p>
+<div class="literalblock">
+<div class="content">
+<pre>HKLM\SYSTEM\CurrentControlSet\Enum\USB\VID_1B1C&amp;PID_0C04</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Navigate to <em>"Device Parameters"</em></p>
+</li>
+<li>
+<p>Change the following DWORD values from 1 to 0</p>
+<div class="literalblock">
+<div class="content">
+<pre>  AllowIdleIrpInD3
+DeviceSelectiveSuspended
+EnhancedPowerManagementEnabled
+SelectiveSuspendEnabled</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Do this for every sub folder inside <em>"VID_1B1C&amp;PID_0C04"</em>. In my case, it&#8217;s just one folder.</p>
+</li>
+<li>
+<p>Restart your machine</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>After restarting, you will notice that the missing LED controls and fan controls are visible again.</p>
+</div>
+        </section>
+
+
+        <footer class="post-footer">
+
+                <section class="author">
+                    <h4>Darkion Avey</h4>
+                    <p>Aesthetics and animations</p>
+                </section>
+
+            <section class="share">
+                <h4>Share this</h4>
+                <a class="icon-twitter" href="http://twitter.com/share?text=Corsair Link Windows 8/8.1 compatibility fix&url=https://DarkionAvey.github.io/2014/02/17/Corsair-Link-Windows-881-compatibility-fix.html"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://DarkionAvey.github.io/2014/02/17/Corsair-Link-Windows-881-compatibility-fix.html"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=https://DarkionAvey.github.io/2014/02/17/Corsair-Link-Windows-881-compatibility-fix.html"
+                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+        </footer>
+
+
+    </article>
+
+</main>
+
+
+    <footer class="site-footer">
+        <!-- <a class="subscribe icon-feed" href="https://DarkionAvey.github.io/rss/"><span class="tooltip">Subscribe!</span></a> -->
+        <div class="inner">
+             <section class="copyright">All content copyright <a href="/">Darkion Avey</a> &copy; 2019 &bull; All rights reserved.</section>
+             <section class="poweredby">Proudly published with <a href="https://hubpress.github.io">HubPress</span></a> in <a href="https://github.com/mityalebedev/The-Shell">The Shell</a> theme.</section>
+        </div>
+    </footer>
+
+
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/prism/1.14.0/prism.min.js?v="></script> 
+      <script type="text/javascript">
+        jQuery( document ).ready(function() {
+          // change date with ago
+          jQuery('ago.ago').each(function(){
+            var element = jQuery(this).parent();
+            element.html( moment(element.text()).fromNow());
+          });
+        });
+
+        // hljs.initHighlightingOnLoad();
+      </script>
+
+    <script type='text/javascript' src="//DarkionAvey.github.io/themes/the-shell/assets/highlighter/prettify.js?v=1573857430377"></script>
+    <script type='text/javascript' src="//DarkionAvey.github.io/themes/the-shell/assets/js/shell.js?v=1573857430377"></script>
+</body>
+</html>
