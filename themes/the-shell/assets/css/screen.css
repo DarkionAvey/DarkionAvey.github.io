@@ -48,7 +48,7 @@ body {
   font-weight: bold;
   font-size: 2.0rem;
   line-height: 1.6em;
-  color: #B2B6BD;
+  color: #eff3f7;
   background: #2b303b; }
 
 ::-moz-selection {
@@ -257,7 +257,7 @@ table.plain tbody > tr:nth-child(odd) > th {
 button, input, select, textarea {
   background: #4f586b;
   border: 1px solid #424a5a;
-  color: #B2B6BD;
+  color: #eff3f7;
   outline-color: #bf6165; }
 
 /* ==========================================================================
@@ -372,9 +372,9 @@ button, input, select, textarea {
     display: inline-block;
     margin: 0 0 5px 0;
     font-size: 1.5rem;
-    color: #846d8f; }
+    color: #ef5350; }
   .post a {
-    color: #846d8f;
+    color: #ef5350;
     text-decoration: none; }
     .post a:hover {
       text-decoration: underline; }
