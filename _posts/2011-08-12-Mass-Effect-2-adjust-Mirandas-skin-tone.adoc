@@ -7,7 +7,7 @@
 . Download _Gibbed's Mass Effect 2 Save Editor_ https://mohuskyrex.com/mass-effect-2-gibbed-save-editor/[from here]
 . Download Ruby http://www.ruby-lang.org/en/[from here]
 . Download Notepad++ https://notepad-plus-plus.org/downloads/[from here]
-. Download the required TexMod file from here
+. Download the required TexMod file [https://github.com/DarkionAvey/DarkionAvey.github.io/blob/master/files/miranda_me2.zip?raw=true]from here. This file contains _CoalescedrealCRC.rb_, _bbwi.tpf_, and _CerberusShepard.tpf_ which are required later in the tutorial
 
 
 
@@ -78,7 +78,7 @@ Finally, add the following to *[SFXGameModeBase]* & *[SFXGameModeDefault]*
 Your _Coalesced.ini_ is not yet ready to be used in the game yet, you'll need to run a fixer "Ruby-based".
 
 [start=6]
-. Extract _CoalescedrealCRC_ to the same directory where your _Coalesced.ini_ is located, and run it. It won't take long until another _Coalesced.ini_ shows up with the name Fix_Coalesced.ini.
+. Extract _CoalescedrealCRC.rb_ to the same directory where your _Coalesced.ini_ is located, and run it. It won't take long until another _Coalesced.ini_ shows up with the name _Fix_Coalesced.ini_.
 
 . Delete the old _Coalesced.ini_ and rename _Fix_Coalesced.ini_ to _Coalesced.ini_
 
@@ -95,7 +95,7 @@ Now that you have the outfit and the skin tone, it's time to remove the neck cli
 
 . Click on it and select the mod _CerberusShepard.tpf_. This mod will only give you the black outfit. To get the white outfit without visible neck clipping, you'll have to do an extra step.
 
-. For white outfit: load _BBWI.tpf_ first then _CerberusShepard.tpf_. Make sure that the mod _BBWI_ is above _CerberusShepard_. The mod BBWI also changes the texture of Normandy's floor and adds texture to Shepard's bed.
+. For white outfit: load _bbwi.tpf_ first then _CerberusShepard.tpf_. Make sure that the mod _bbwi_ is above _CerberusShepard_. The mod BBWI also changes the texture of Normandy's floor and adds texture to Shepard's bed.
 
 You will have to use TexMod every time you want to play Mass Effect 2 because the effect of the TexMod is not permanent.
 
