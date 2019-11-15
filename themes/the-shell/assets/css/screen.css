@@ -20,7 +20,7 @@
   text-decoration: none; }
 
 .icon-ghost-text {
-  font-family: "Courier New", Courier, monospace; }
+  font-family: monospace; }
 .icon-ghost:before {
   content: "\e000"; }
 .icon-feed:before {
@@ -44,7 +44,8 @@ html {
 body {
   height: 100%;
   max-height: 100%;
-  font-family: "Courier New", Courier, monospace;
+  font-family: monospace;
+  font-weight: bold;
   font-size: 2.0rem;
   line-height: 1.6em;
   color: #B2B6BD;
