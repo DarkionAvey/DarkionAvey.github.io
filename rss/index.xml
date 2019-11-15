@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Darkion Avey]]></title><description><![CDATA[Various articles written by Darkion Avey throughout the years]]></description><link>https://DarkionAvey.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 15 Nov 2019 23:28:24 GMT</lastBuildDate><atom:link href="https://DarkionAvey.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Creating an automated CPP videos analyzer using ImageJ]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Darkion Avey]]></title><description><![CDATA[Various articles written by Darkion Avey throughout the years]]></description><link>https://DarkionAvey.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 15 Nov 2019 23:39:09 GMT</lastBuildDate><atom:link href="https://DarkionAvey.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Creating an automated CPP videos analyzer using ImageJ]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>Conditioned place preference (CPP) paradigm is used to test drug addiction in mice. The mouse is placed inside the apparatus, and time spent in compartments is measured. The design isn&#8217;t standard, it comes in many varieties. In my case, the box had three compartments — black and white compartments on the sides, and grey-ish one in-between.</p>
@@ -281,7 +281,7 @@ SelectiveSuspendEnabled</pre>
 <p>Download Notepad++ <a href="https://notepad-plus-plus.org/downloads/">from here</a></p>
 </li>
 <li>
-<p>Download the required TexMod file [<a href="https://github.com/DarkionAvey/DarkionAvey.github.io/blob/master/files/miranda_me2.zip?raw=true" class="bare">https://github.com/DarkionAvey/DarkionAvey.github.io/blob/master/files/miranda_me2.zip?raw=true</a>]from here. This file contains <em>CoalescedrealCRC.rb</em>, <em>bbwi.tpf</em>, and <em>CerberusShepard.tpf</em> which are required later in the tutorial</p>
+<p>Download the required TexMod file <a href="https://github.com/DarkionAvey/DarkionAvey.github.io/blob/master/files/miranda_me2.zip?raw=true">from here</a>. This file contains <em>CoalescedrealCRC.rb</em>, <em>bbwi.tpf</em>, and <em>CerberusShepard.tpf</em> which are required later in the tutorial</p>
 </li>
 </ol>
 </div>
