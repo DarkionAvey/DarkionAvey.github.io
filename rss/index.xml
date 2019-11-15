@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Darkion Avey]]></title><description><![CDATA[Various articles written by Darkion Avey throughout the years]]></description><link>https://DarkionAvey.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 15 Nov 2019 23:20:22 GMT</lastBuildDate><atom:link href="https://DarkionAvey.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Creating an automated CPP videos analyzer using ImageJ]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Darkion Avey]]></title><description><![CDATA[Various articles written by Darkion Avey throughout the years]]></description><link>https://DarkionAvey.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 15 Nov 2019 23:25:49 GMT</lastBuildDate><atom:link href="https://DarkionAvey.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Creating an automated CPP videos analyzer using ImageJ]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>Conditioned place preference (CPP) paradigm is used to test drug addiction in mice. The mouse is placed inside the apparatus, and time spent in compartments is measured. The design isn&#8217;t standard, it comes in many varieties. In my case, the box had three compartments — black and white compartments on the sides, and grey-ish one in-between.</p>
@@ -281,7 +281,7 @@ SelectiveSuspendEnabled</pre>
 <p>Download Notepad++ <a href="https://notepad-plus-plus.org/downloads/">from here</a></p>
 </li>
 <li>
-<p>Download the required TexMod file from here</p>
+<p>Download the required TexMod file [<a href="https://github.com/DarkionAvey/DarkionAvey.github.io/blob/master/files/miranda_me2.zip?raw=true" class="bare">https://github.com/DarkionAvey/DarkionAvey.github.io/blob/master/files/miranda_me2.zip?raw=true</a>]from here. This file contains <em>CoalescedrealCRC.rb</em>, <em>bbwi.tpf</em>, and <em>CerberusShepard.tpf</em> which are required later in the tutorial</p>
 </li>
 </ol>
 </div>
@@ -391,7 +391,7 @@ TorsoAppearances=(Id=1073,Type=CustomizableType_Torso,Mesh= Male="BIOG_HMF_MIR_L
 <div class="olist arabic">
 <ol class="arabic" start="6">
 <li>
-<p>Extract <em>CoalescedrealCRC</em> to the same directory where your <em>Coalesced.ini</em> is located, and run it. It won&#8217;t take long until another <em>Coalesced.ini</em> shows up with the name Fix_Coalesced.ini.</p>
+<p>Extract <em>CoalescedrealCRC.rb</em> to the same directory where your <em>Coalesced.ini</em> is located, and run it. It won&#8217;t take long until another <em>Coalesced.ini</em> shows up with the name <em>Fix_Coalesced.ini</em>.</p>
 </li>
 <li>
 <p>Delete the old <em>Coalesced.ini</em> and rename <em>Fix_Coalesced.ini</em> to <em>Coalesced.ini</em></p>
@@ -421,7 +421,7 @@ TorsoAppearances=(Id=1073,Type=CustomizableType_Torso,Mesh= Male="BIOG_HMF_MIR_L
 <p>Click on it and select the mod <em>CerberusShepard.tpf</em>. This mod will only give you the black outfit. To get the white outfit without visible neck clipping, you&#8217;ll have to do an extra step.</p>
 </li>
 <li>
-<p>For white outfit: load <em>BBWI.tpf</em> first then <em>CerberusShepard.tpf</em>. Make sure that the mod <em>BBWI</em> is above <em>CerberusShepard</em>. The mod BBWI also changes the texture of Normandy&#8217;s floor and adds texture to Shepard&#8217;s bed.</p>
+<p>For white outfit: load <em>bbwi.tpf</em> first then <em>CerberusShepard.tpf</em>. Make sure that the mod <em>bbwi</em> is above <em>CerberusShepard</em>. The mod BBWI also changes the texture of Normandy&#8217;s floor and adds texture to Shepard&#8217;s bed.</p>
 </li>
 </ol>
 </div>
