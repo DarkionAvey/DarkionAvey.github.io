@@ -1,4 +1,64 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Darkion Avey]]></title><description><![CDATA[Various articles written by Darkion Avey throughout the years]]></description><link>https://DarkionAvey.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 15 Nov 2019 20:53:18 GMT</lastBuildDate><atom:link href="https://DarkionAvey.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[How to use TexMod on Windows PC]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Darkion Avey]]></title><description><![CDATA[Various articles written by Darkion Avey throughout the years]]></description><link>https://DarkionAvey.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 15 Nov 2019 21:19:04 GMT</lastBuildDate><atom:link href="https://DarkionAvey.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Creating an automated CPP videos analyzer using ImageJ]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Conditioned place preference (CPP) paradigm is used to test drug addiction in mice. The mouse is placed inside the apparatus, and time spent in compartments is measured. The design isn&#8217;t standard, it comes in many varieties. In my case, the box had three compartments — black and white compartments on the sides, and grey-ish one in-between.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_algorithm">Algorithm</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Using ImageJ, the app (or plugin, if you will) first allows the user to highlight the black and grey compartments. This is because the mice used had white fur and there&#8217;s no reliable contrast between them and the white compartment. After highlighting the black and grey compartments, the user is asked to select an optimal threshold value that highlights the mouse from everything else.
+This threshold value will be applied to all frames. The app then starts analyzing the video. The app uses <em>ffmpeg</em> to extract all frames in the video, then process them one by one. First thing it does is cropping the frames to the area the user had highlighted in the beginning, then apply the threshold value. The app will check if the image is completely black (which means there is no mouse in the frame). If true, the app will skip this frame and move to the next one to save time and reduce false-positives. Else, which means there is a mouse, particle analyzer will analyze the 'mouse'. Of course there will be false-positives, so in order to eliminate the chance of error, the particle analyzer is initiated with area threshold. If the object is truly a mouse, the particle analyzer will find the centroid, then check if it&#8217;s in black, or grey compartment. The process is repeated for all frames, which are about 13,000 for a 15 minutes video at 15fps.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_download_the_code">Download the code</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You can get the code by clicking <a href="https://github.com/DarkionAvey/DarkionAvey.github.io/blob/master/files/cpp_code.zip?raw=true">here</a>. Once you downloaded the file, extract the included four files, run ImageJ, go to <em>plugins</em> &gt; <em>compile and run</em> &gt; <em>UI.class</em> then follow the instructions. Don&#8217;t forget to download and extract <em>ffmpeg</em>  to the same folder</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_how_accurate_is_it">How accurate is it</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>I&#8217;ve checked it with manual counting, and the app is pretty accurate when configured correctly. After each analysis, there will be a folder called <em>"debugging"</em> which shows the results of the first 500 frames, you could check the accuracy from there.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_license">License</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>WTFPL</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_how_to_set_threshold">How to set threshold</h2>
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="https://DarkionAvey.github.io/images/cpp_thresholding.png" alt="Good thresholding example">
+</div>
+</div>
+<div class="paragraph">
+<p>First you need to change the channel from <em>red</em> to <em>all</em>, then slide <em>maximum</em> to 0. Once you&#8217;ve done that, gradually increase <em>minimum</em> until you get something like the picture shown above. The mouse should appear featureless with contrasting background which doesn&#8217;t contain significant artifacts. The tail shouldn&#8217;t be visible. Note: it is imperative that you don&#8217;t press <em>"Apply"</em>; otherwise, the application will not be able to capture threshold values.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://DarkionAvey.github.io/images/cpp_bad.png" alt="Bad thresholding example">
+</div>
+</div>
+<div class="paragraph">
+<p>The picture above shows a bad example of thresholding because the tail is visible, and minute artifacts can be seen at the lower edge. It&#8217;s for the best if you provided clean images.</p>
+</div>
+</div>
+</div>]]></description><link>https://DarkionAvey.github.io/2016/12/04/Creating-an-automated-CPP-videos-analyzer-using-ImageJ.html</link><guid isPermaLink="true">https://DarkionAvey.github.io/2016/12/04/Creating-an-automated-CPP-videos-analyzer-using-ImageJ.html</guid><category><![CDATA[ImageJ]]></category><category><![CDATA[CPP]]></category><dc:creator><![CDATA[Darkion Avey]]></dc:creator><pubDate>Sun, 04 Dec 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[How to use TexMod on Windows PC]]></title><description><![CDATA[<div class="paragraph">
 <p>TexMod is an old tool made to replace the textures of any Dx9 game without modifying the original files of the game. Follow the steps below to get going:</p>
 </div>
 <div class="olist arabic">
