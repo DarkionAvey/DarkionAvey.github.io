@@ -1,6 +1,6 @@
 = Need for Speed Rivals 60 FPS mod
 :published_at: 2014-01-05
-:hp-tags: NFS
+:hp-tags: Need for speed, Games
 
 . Locate the game _NFS14.exe_ file. Usually, it's located in your Origin library (_C:\Program Files (x86)\Origin Games\Need for Speed(TM) Rivals\_)
 . Create a shortcut of the _exe_ file by right-clicking it > send to > desktop (create a shortcut)
