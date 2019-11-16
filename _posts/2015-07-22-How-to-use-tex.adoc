@@ -1,6 +1,6 @@
 = How to use TexMod on Windows PC
 :published_at: 2015-07-22
-:hp-tags: TexMod, TPF
+:hp-tags: TexMod, Mod
 :hp-alt-title: How to use tex
 
 // See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
