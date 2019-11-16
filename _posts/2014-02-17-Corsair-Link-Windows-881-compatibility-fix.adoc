@@ -5,7 +5,7 @@
 
 Corsair Link software seems to be broken after Windows 8.1 update. Fortunately, there is a fix.
 
-. Hit the start menu, and type _"regedit"_ (Registry editor). Right-click it, then choose _"run as administrator"_ to gain the needed privileges.
+. Hit the start menu, and type _"regedit"_ (Registry editor). Right-click it, then choose _"run as administrator"_ to gain the needed privileges
  . From the left side folder tree, navigate to the following key:
  
  HKLM\SYSTEM\CurrentControlSet\Enum\USB\VID_1B1C&PID_0C04
@@ -19,7 +19,7 @@ Corsair Link software seems to be broken after Windows 8.1 update. Fortunately, 
  EnhancedPowerManagementEnabled
  SelectiveSuspendEnabled
 
- . Do this for every sub folder inside _"VID_1B1C&PID_0C04"_. In my case, it's just one folder.
+ . Do this for every sub folder inside `VID_1B1C&PID_0C04`. In my case, it's just one folder.
 
 . Restart your machine
 
