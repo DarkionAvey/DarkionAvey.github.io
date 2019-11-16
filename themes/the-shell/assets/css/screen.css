@@ -68,22 +68,22 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal; }
 
 h1 a {
-  color: #ef5350; }
+  color: #7efaf4; }
 
 h2 a {
-  color: #ef5350; }
+  color: #7efaf4; }
 
 h3 a {
-  color: #ef5350; }
+  color: #7efaf4; }
 
 h4 a {
-  color: #ef5350; }
+  color: #7efaf4; }
 
 h5 a {
-  color: #ef5350; }
+  color: #7efaf4; }
 
 h6 a {
-  color: #ef5350; }
+  color: #7efaf4; }
 
 h1 {
   font-size: 5rem;
@@ -363,7 +363,7 @@ button, input, select, textarea {
           hyphens: auto; }
   .post-title {
     margin: 0;
-    color: #ef5350; }
+    color: #7efaf4; }
     .post-title a {
       text-decoration: none; }
   .post-excerpt p {
@@ -374,9 +374,9 @@ button, input, select, textarea {
     display: inline-block;
     margin: 0 0 5px 0;
     font-size: 1.5rem;
-    color: #ef5350; }
+    color: #6dcac5; }
   .post a {
-    color: #ef5350;
+    color: #7efaf4;
     text-decoration: none; }
     .post a:hover {
       text-decoration: underline; }
@@ -422,7 +422,7 @@ button, input, select, textarea {
   .post-template .post:after {
     display: none; }
   .post-template .post-header {
-    padding: 60px 0; }
+    height:250px }
 .post-header #blog-logo:before {
   margin: 60px auto; }
 .post-content img {
