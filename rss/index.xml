@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Darkion Avey]]></title><description><![CDATA[Various articles written by Darkion Avey throughout the years]]></description><link>https://DarkionAvey.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 15 Nov 2019 23:56:41 GMT</lastBuildDate><atom:link href="https://DarkionAvey.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Defect detection using MatLab]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Darkion Avey]]></title><description><![CDATA[Various articles written by Darkion Avey throughout the years]]></description><link>https://DarkionAvey.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 16 Nov 2019 10:17:34 GMT</lastBuildDate><atom:link href="https://DarkionAvey.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Defect detection using MatLab]]></title><description><![CDATA[<div class="paragraph">
 <p>This code detects any defect (e.g. textile or liquid defects) using image processing in different kinds of images.</p>
 </div>
 <div class="paragraph">
@@ -350,25 +350,18 @@ R 0.9999999</pre>
 </ol>
 </div>
 <div class="paragraph">
-<p>To <strong>[SFXGame.SFXPawn_Player]</strong></p>
+<p>To <code>[SFXGame.SFXPawn_Player]</code></p>
 </div>
 <div class="literalblock">
 <div class="content">
 <pre>HelmetAppearances=(Id=#,Type=CustomizableType_Helmet,GameEffects=("SFXGame.SFXGameEffect_Gear_N7Helmet"),PlotFlag=-1)ShoulderAppearances=(Id=#,Type=CustomizableType_Shoulders,GameEffects=("SFXGame.SFXGameEffect_Gear_N7Shoulders"),PlotFlag=-1) ArmAppearances=(Id=#,Type=CustomizableType_Arms,GameEffects=("SFXGame.SFXGameEffect_Gear_N7Arms"),PlotFlag=-1)
-LegAppearances=(Id=#,Type=CustomizableType_Legs,GameEffects=("SFXGame.SFXGameEffect_Gear_N7Legs"),PlotFlag=-1)</pre>
-</div>
-</div>
-<div class="paragraph">
-<p>To <strong>[SFXGame.SFXPawn_Player]</strong></p>
-</div>
-<div class="literalblock">
-<div class="content">
-<pre>CasualAppearances=(Id=1073,Type=CustomizableType_Torso,Mesh=(Male="BIOG_HMF_MIR_LGT_R.LGTa.HMF_MIR_LGTa_MDL",Female="BIOG_HMF_MIR_LGT_R.LGTa.HMF_MIR_LGTa_MDL"),PlotFlag=-1)
+LegAppearances=(Id=#,Type=CustomizableType_Legs,GameEffects=("SFXGame.SFXGameEffect_Gear_N7Legs"),PlotFlag=-1)
+CasualAppearances=(Id=1073,Type=CustomizableType_Torso,Mesh=(Male="BIOG_HMF_MIR_LGT_R.LGTa.HMF_MIR_LGTa_MDL",Female="BIOG_HMF_MIR_LGT_R.LGTa.HMF_MIR_LGTa_MDL"),PlotFlag=-1)
 TorsoAppearances=(Id=1073,Type=CustomizableType_Torso,Mesh= Male="BIOG_HMF_MIR_LGT_R.LGTa.HMF_MIR_LGTa_MDL",Female ="BIOG_HMF_MIR_LGT_R.LGTa.HMF_MIR_LGTa_MDL"),PlotFlag=-1)</pre>
 </div>
 </div>
 <div class="paragraph">
-<p>To <strong>[SFXGameModeDefault]</strong></p>
+<p>To <code>[SFXGameModeDefault]</code></p>
 </div>
 <div class="literalblock">
 <div class="content">
@@ -376,7 +369,7 @@ TorsoAppearances=(Id=1073,Type=CustomizableType_Torso,Mesh= Male="BIOG_HMF_MIR_L
 </div>
 </div>
 <div class="paragraph">
-<p>Finally, add the following to <strong>[SFXGameModeBase]</strong> &amp; <strong>[SFXGameModeDefault]</strong></p>
+<p>Finally, add the following to <code>[SFXGameModeBase]</code> &amp; <code>[SFXGameModeDefault]</code></p>
 </div>
 <div class="literalblock">
 <div class="content">
@@ -437,6 +430,6 @@ TorsoAppearances=(Id=1073,Type=CustomizableType_Torso,Mesh= Male="BIOG_HMF_MIR_L
 <p>You will have to use TexMod every time you want to play Mass Effect 2 because the effect of the TexMod is not permanent.</p>
 </div>
 </div>
-</div>]]></description><link>https://DarkionAvey.github.io/2011/08/12/Mass-Effect-2-get-Mirandas-skin-tone.html</link><guid isPermaLink="true">https://DarkionAvey.github.io/2011/08/12/Mass-Effect-2-get-Mirandas-skin-tone.html</guid><category><![CDATA[Mass effect]]></category><dc:creator><![CDATA[Darkion Avey]]></dc:creator><pubDate>Fri, 12 Aug 2011 00:00:00 GMT</pubDate></item><item><title><![CDATA[Hello world]]></title><description><![CDATA[<div class="paragraph">
+</div>]]></description><link>https://DarkionAvey.github.io/2011/08/12/Mass-Effect-2-get-Mirandas-skin-tone.html</link><guid isPermaLink="true">https://DarkionAvey.github.io/2011/08/12/Mass-Effect-2-get-Mirandas-skin-tone.html</guid><category><![CDATA[Mass effect]]></category><category><![CDATA[Games]]></category><category><![CDATA[TexMod]]></category><dc:creator><![CDATA[Darkion Avey]]></dc:creator><pubDate>Fri, 12 Aug 2011 00:00:00 GMT</pubDate></item><item><title><![CDATA[Hello world]]></title><description><![CDATA[<div class="paragraph">
 <p>🎂</p>
 </div>]]></description><link>https://DarkionAvey.github.io/2011/06/01/Hello-world.html</link><guid isPermaLink="true">https://DarkionAvey.github.io/2011/06/01/Hello-world.html</guid><dc:creator><![CDATA[Darkion Avey]]></dc:creator><pubDate>Wed, 01 Jun 2011 00:00:00 GMT</pubDate></item></channel></rss>
