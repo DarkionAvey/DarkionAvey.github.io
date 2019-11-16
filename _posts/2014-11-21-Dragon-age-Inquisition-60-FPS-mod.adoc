@@ -1,6 +1,6 @@
 = Dragon age: Inquisition 60 FPS mod
 :published_at: 2014-11-21
-:hp-tags: DAI
+:hp-tags: Dragon Age, Mod
 
 This guide helps you uncap cutscenes frame rate. 
 
