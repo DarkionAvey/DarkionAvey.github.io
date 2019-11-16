@@ -4,7 +4,7 @@
 
 Follow the guide below to toggle HUD visibility without the need for another app (e.g. CheatEngine). This will hide all overlays including menus. 
 
-. Press tilde key on your keyboard "~" to enable the console
+. Press `tilde` key on your keyboard ("`~`") to enable the console
 . Type 
 
    UI
