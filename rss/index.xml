@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Darkion Avey]]></title><description><![CDATA[Various articles written by Darkion Avey throughout the years]]></description><link>https://DarkionAvey.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 16 Nov 2019 10:26:50 GMT</lastBuildDate><atom:link href="https://DarkionAvey.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Defect detection using MatLab]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Darkion Avey]]></title><description><![CDATA[Various articles written by Darkion Avey throughout the years]]></description><link>https://DarkionAvey.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sun, 17 Nov 2019 12:55:21 GMT</lastBuildDate><atom:link href="https://DarkionAvey.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Defect detection using MatLab]]></title><description><![CDATA[<div class="paragraph">
 <p>This code detects any defect (e.g. textile or liquid defects) using image processing in different kinds of images.</p>
 </div>
 <div class="paragraph">
@@ -182,12 +182,7 @@ This threshold value will be applied to all frames. The app then starts analyzin
 <p>Press <code>tilde</code> / <code>~</code> key on your keyboard  to enable the console</p>
 </li>
 <li>
-<p>Type</p>
-<div class="literalblock">
-<div class="content">
-<pre>UI</pre>
-</div>
-</div>
+<p>Type <code>UI</code></p>
 </li>
 <li>
 <p>Press <code>tab</code> key to auto complete the code</p>
