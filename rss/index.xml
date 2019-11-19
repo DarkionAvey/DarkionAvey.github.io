@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Darkion Avey]]></title><description><![CDATA[Various articles written by Darkion Avey throughout the years]]></description><link>https://DarkionAvey.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 19 Nov 2019 16:15:50 GMT</lastBuildDate><atom:link href="https://DarkionAvey.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Defect detection using MatLab]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Darkion Avey]]></title><description><![CDATA[Various articles written by Darkion Avey throughout the years]]></description><link>https://DarkionAvey.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 19 Nov 2019 16:52:53 GMT</lastBuildDate><atom:link href="https://DarkionAvey.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Defect detection using MatLab]]></title><description><![CDATA[<div class="paragraph">
 <p>This code detects any defect (e.g. textile or liquid defects) using image processing in different kinds of images.</p>
 </div>
 <div class="paragraph">
@@ -357,7 +357,7 @@ Running away with Justin (shooting Danny&#8217;s ankle) will teach Vince that sh
 <div class="sect2">
 <h3 id="_prerequisites">Prerequisites</h3>
 <div class="paragraph">
-<p>You have to download Wenchy&#8217;s Mass Effect 3 Coalesced Editor, you can download it from the official website <a href="https://wenchy.net/me3-coalesced-utility/">here</a>. For robotic dog, you will need Gibbed&#8217;s Mass Effect 3 Save Editor. You can get the latest version from the official website <a href="http://svn.gib.me/builds/masseffect3/">here</a>. Before you start, it is recommeded that you backup your <code>Coalesced.bin</code> located in <code>&#8230;&#8203;\Mass Effect 3\BIOGame\CookedPCConsole</code> directory.</p>
+<p>You need Wenchy&#8217;s Mass Effect 3 Coalesced Editor, you can download it from the official website <a href="https://wenchy.net/me3-coalesced-utility/">here</a>. For robotic dog, you will need Gibbed&#8217;s Mass Effect 3 Save Editor. You can get the latest version from the official website <a href="http://svn.gib.me/builds/masseffect3/">here</a>. Before you start, it is recommeded that you backup your <code>Coalesced.bin</code> located in <code>&#8230;&#8203;\Mass Effect 3\BIOGame\CookedPCConsole</code> directory.</p>
 </div>
 </div>
 <div class="sect1">
@@ -375,7 +375,7 @@ Running away with Justin (shooting Danny&#8217;s ankle) will teach Vince that sh
 <p>Click <em>open</em> and then select your <code>coalesced.bin</code> file which is normally located in <code>C:\Program Files\Mass Effect 3\BIOGame\CookedPCConsole</code></p>
 </li>
 <li>
-<p>From the left menu, choose <em>bioinput.ini</em>, then <code>sfxgame</code>, and after that,  <code>sfxgamemodedefault</code>.</p>
+<p>From the left menu, choose <code>bioinput.ini</code>, then <code>sfxgame</code>, and after that,  <code>sfxgamemodedefault</code>.</p>
 </li>
 </ol>
 </div>
@@ -411,14 +411,14 @@ Running away with Justin (shooting Danny&#8217;s ankle) will teach Vince that sh
 <div class="paragraph">
 <p>As you might have noticed already, each command is mapped to a key which you can modify to your liking. The setup above gives you the following options and their key triggers:</p>
 </div>
-<div class="literalblock">
+<div class="listingblock">
 <div class="content">
-<pre>Key		Action
-===		======
-F1		No Power Cooling
-F2		Infinite Ammo
-F3		God Mode
-F4		Add 999999 Credits
+<pre class="highlight"><code class="language-xml" data-lang="xml">Key			Action
+===			======
+F1			No Power Cooling
+F2			Infinite Ammo
+F3			God Mode
+F4			Add 999999 Credits
 NumPad1		Set Paragon 0
 NumPad2		Set Paragon 2000
 NumPad3		Set Renegade 0
@@ -429,7 +429,7 @@ NumPad7		Set Speed to 0.5
 NumPad8		Set Speed to Normal
 NumPad9		Set Speed to 2.0
 NumPad0		Cooling Down On
-F8		Screenshot</pre>
+F8			Screenshot</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -452,20 +452,20 @@ F8		Screenshot</pre>
 </div>
 </div>
 <div class="paragraph">
-<p>As you can tell, this command lets you obtain the weapon <em>Cain</em> by pressing <code>F12</code>. You can change these two to your liking.</p>
+<p>As you can tell, this command lets you obtain the weapon <code>Cain</code> by pressing <code>F12</code>. You can change these two to your liking.</p>
 </div>
 <div class="paragraph">
 <p>Below you will find a list of the weapons you can get (replace the word <code>Cain</code> in the command above)</p>
 </div>
-<div class="literalblock">
+<div class="listingblock">
 <div class="content">
-<pre>Weapon					Code
-======					====
-M-920 cain				Cain
-Reaper blackstar			Blackstar
-Geth spitfire				minigun
-M-451 firestorm (flamethrower)		Flamethrower_Player
-M-560 hydra (titan missile launcher)	titanmissilelauncher</pre>
+<pre class="highlight"><code class="language-xml" data-lang="xml">Weapon									Code
+======									====
+M-920 cain								Cain
+Reaper blackstar						Blackstar
+Geth spitfire							minigun
+M-451 firestorm (flamethrower)			Flamethrower_Player
+M-560 hydra (titan missile launcher)	titanmissilelauncher</code></pre>
 </div>
 </div>
 </div>
