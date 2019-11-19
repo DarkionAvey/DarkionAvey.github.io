@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Darkion Avey]]></title><description><![CDATA[Various articles written by Darkion Avey throughout the years]]></description><link>https://DarkionAvey.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 19 Nov 2019 16:52:53 GMT</lastBuildDate><atom:link href="https://DarkionAvey.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Defect detection using MatLab]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Darkion Avey]]></title><description><![CDATA[Various articles written by Darkion Avey throughout the years]]></description><link>https://DarkionAvey.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 19 Nov 2019 18:42:51 GMT</lastBuildDate><atom:link href="https://DarkionAvey.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Defect detection using MatLab]]></title><description><![CDATA[<div class="paragraph">
 <p>This code detects any defect (e.g. textile or liquid defects) using image processing in different kinds of images.</p>
 </div>
 <div class="paragraph">
@@ -372,7 +372,7 @@ Running away with Justin (shooting Danny&#8217;s ankle) will teach Vince that sh
 <p>First, open Wenchy&#8217;s Mass Effect 3 Coalesced Editor.</p>
 </li>
 <li>
-<p>Click <em>open</em> and then select your <code>coalesced.bin</code> file which is normally located in <code>C:\Program Files\Mass Effect 3\BIOGame\CookedPCConsole</code></p>
+<p>Click <em>open</em> and then select your <code>coalesced.bin</code> file which is normally located in <code>.\Mass Effect 3\BIOGame\CookedPCConsole</code></p>
 </li>
 <li>
 <p>From the left menu, choose <code>bioinput.ini</code>, then <code>sfxgame</code>, and after that,  <code>sfxgamemodedefault</code>.</p>
@@ -433,7 +433,7 @@ F8			Screenshot</code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>Note: screenshots are saved to ` &#8230;&#8203;\Documents\BioWare\Mass Effect 3\biogame\ Screenshots`</p>
+<p>Note: screenshots are saved to <code>.\Documents\BioWare\Mass Effect 3\biogame\Screenshots</code></p>
 </div>
 </div>
 </div>
@@ -502,7 +502,7 @@ M-560 hydra (titan missile launcher)	titanmissilelauncher</code></pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_ghost_mode_no_collision_mode">Ghost mode, no collision mode</h3>
+<h3 id="_ghost_mode_no_collision_mode">Ghost mode, no collision mode 👻</h3>
 <div class="paragraph">
 <p>This command allows you to bypass hidden walls. It is similar to TCL command in Skyrim.</p>
 </div>
@@ -522,7 +522,7 @@ M-560 hydra (titan missile launcher)	titanmissilelauncher</code></pre>
 <h2 id="_unlockables">Unlockables</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_robotic_dog">Robotic dog</h3>
+<h3 id="_robotic_dog">Robotic dog 🐶</h3>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
@@ -555,7 +555,7 @@ M-560 hydra (titan missile launcher)	titanmissilelauncher</code></pre>
 </div>
 </div>
 </div>
-</div>]]></description><link>https://DarkionAvey.github.io/2012/03/10/Mass-Effect-3-comprehensive-cheat-guide-weaponstrainercoalescedrobotic-dog.html</link><guid isPermaLink="true">https://DarkionAvey.github.io/2012/03/10/Mass-Effect-3-comprehensive-cheat-guide-weaponstrainercoalescedrobotic-dog.html</guid><category><![CDATA[Mass Effect]]></category><category><![CDATA[Games]]></category><category><![CDATA[Mod]]></category><dc:creator><![CDATA[Darkion Avey]]></dc:creator><pubDate>Sat, 10 Mar 2012 00:00:00 GMT</pubDate></item><item><title><![CDATA[Mass Effect 2: get Miranda's skin tone]]></title><description><![CDATA[<div class="sect1">
+</div>]]></description><link>https://DarkionAvey.github.io/2012/03/10/PC-Mass-Effect-3-Weapons-Cheats-Trainer-Coalesced.html</link><guid isPermaLink="true">https://DarkionAvey.github.io/2012/03/10/PC-Mass-Effect-3-Weapons-Cheats-Trainer-Coalesced.html</guid><category><![CDATA[Mass Effect]]></category><category><![CDATA[Games]]></category><category><![CDATA[Mod]]></category><dc:creator><![CDATA[Darkion Avey]]></dc:creator><pubDate>Sat, 10 Mar 2012 00:00:00 GMT</pubDate></item><item><title><![CDATA[Mass Effect 2: get Miranda's skin tone]]></title><description><![CDATA[<div class="sect1">
 <h2 id="_prerequisites">Prerequisites</h2>
 <div class="sectionbody">
 <div class="olist arabic">
