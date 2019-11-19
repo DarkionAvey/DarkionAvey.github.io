@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Darkion Avey]]></title><description><![CDATA[Various articles written by Darkion Avey throughout the years]]></description><link>https://DarkionAvey.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 19 Nov 2019 19:11:38 GMT</lastBuildDate><atom:link href="https://DarkionAvey.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Defect detection using MatLab]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Darkion Avey]]></title><description><![CDATA[Various articles written by Darkion Avey throughout the years]]></description><link>https://DarkionAvey.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 19 Nov 2019 21:22:10 GMT</lastBuildDate><atom:link href="https://DarkionAvey.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Building a gesture-friendly spinner for Android]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Sometimes one is so lazy that lifting a finger becomes a chore. I guess Google has foreseen this ever since they introduced "swipe-to-open" overflow menu in KitKat. Few days ago, I came across an interesting concept which applies the gesture philosophy on the spinner widget. The concept shows that the user can change the value of the widget just by dragging the widget itself up or down. <em>Oleg</em>, the author, implemented subtle elastic feedback animation when the user releases the widget after dragging.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://assets.materialup.com/uploads/223613ca-dae8-4256-838a-413ccdd98ac1/preview.gif" alt="Stepper XVI by Oleg Frolov">
+</div>
+</div>
+<div class="paragraph">
+<p>I feel in love with this concept, so I had to recreate it into a real widget for Android.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_swipespinnerwidget">SwipeSpinnerWidget</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>It is a fact that Android development arena is saturated with <em>-deprecated-</em> widgets which incorporate custom implementation of existing functions. I personally think over-complicating simple widgets leads to premature deprecation, and increases incompatibility issues; not to mention lack of proper documentation. Therefore, I decided to code the concept on top of RecyclerView. It may seem like an over kill, but I figured that if I used RecyclerView, people would be able to use it on top of their existing adapters without having to change anything, plus I don&#8217;t have to worry about compatibility with older Android versions. I&#8217;m also fan of one-class libraries, since they can be easily downloaded and integrated into projects, specially in the case of simple widgets.</p>
+</div>
+<div class="paragraph">
+<p>Fast-forward couple of days later, I was able to recreate Oleg&#8217;s concept by using <code>RecyclerView.OnItemTouchListener</code> implementation. Overall, I think it turned out nicely. Simple, light, sustainable, and one-classer.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://github.com/DarkionAvey/SwipeSpinnerWidget/raw/master/preview.gif" alt="SwipeSpinnerWidget demo">
+</div>
+</div>
+<div class="paragraph">
+<p>You can check out the library <a href="https://github.com/DarkionAvey/SwipeSpinnerWidget">here</a></p>
+</div>
+</div>
+</div>]]></description><link>https://DarkionAvey.github.io/2018/12/10/Building-a-gesture-friendly-spinner-for-Android.html</link><guid isPermaLink="true">https://DarkionAvey.github.io/2018/12/10/Building-a-gesture-friendly-spinner-for-Android.html</guid><category><![CDATA[Android]]></category><dc:creator><![CDATA[Darkion Avey]]></dc:creator><pubDate>Mon, 10 Dec 2018 00:00:00 GMT</pubDate></item><item><title><![CDATA[Defect detection using MatLab]]></title><description><![CDATA[<div class="paragraph">
 <p>This code detects any defect (e.g. textile or liquid defects) using image processing in different kinds of images.</p>
 </div>
 <div class="paragraph">
