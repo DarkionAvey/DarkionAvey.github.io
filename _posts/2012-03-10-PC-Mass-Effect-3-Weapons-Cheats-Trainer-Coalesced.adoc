@@ -1,6 +1,8 @@
 = Mass Effect 3: comprehensive cheat guide (weapons/trainer/coalesced/robotic dog)
 :published_at: 2012-03-10
 :hp-tags: Mass Effect, Games, Mod
+:hp-alt-title: [PC] Mass Effect 3 Weapons/Cheats/Trainer/Coalesced 
+
 
 Worried about your credits? worry no more! This Mass Effect guide shows you how to get unlimited credits, plus other goodies such as godmode, flying camera, robotic dog, heavy guns, and much more.
 
@@ -14,7 +16,7 @@ This section contains various general cheats which you might want to check out, 
 
 
 . First, open Wenchy's Mass Effect 3 Coalesced Editor.
-. Click _open_ and then select your `coalesced.bin` file which is normally located in `C:\Program Files\Mass Effect 3\BIOGame\CookedPCConsole`
+. Click _open_ and then select your `coalesced.bin` file which is normally located in `.\Mass Effect 3\BIOGame\CookedPCConsole`
 . From the left menu, choose `bioinput.ini`, then `sfxgame`, and after that,  `sfxgamemodedefault`. 
 
 Note: After the V1.05 update, the codes must be placed in `sfxgamemodedefault` instead of `sfxgamemodebase`. If that doesn't work, place the codes in both `sfxgamemodedefault` and `sfxgamemodebase`
@@ -61,7 +63,7 @@ NumPad0		Cooling Down On
 F8			Screenshot
 
 
-Note: screenshots are saved to ` ...\Documents\BioWare\Mass Effect 3\biogame\ Screenshots`
+Note: screenshots are saved to `.\Documents\BioWare\Mass Effect 3\biogame\Screenshots`
 
 == Weapons 
 In Mass Effect 3 story, you don't get to use heavy weapons as often as you did in Mass Effect 2. Luckily, they did not remove them completely from the game, therefore, the following method is used to replace one of your equipped weapons with a weapon of your choice.
@@ -107,7 +109,7 @@ You can assign this command to `bindings` as mentioned above. Change `1` to the 
 	( Name="F10", Command="givetalentpoints 1" )
 	
 	
-=== Ghost mode, no collision mode
+=== Ghost mode, no collision mode 👻
 This command allows you to bypass hidden walls. It is similar to TCL command in Skyrim.
 
 		( Name="F7", Command="Ghost" )
@@ -119,7 +121,7 @@ As you can tell, `F7` enables it, while `F8` disables it.
 
 == Unlockables
 
-=== Robotic dog
+=== Robotic dog 🐶
 
 . Open Gibbed's Mass Effect 3 Save Editor
 . Navigate to the plot tab
