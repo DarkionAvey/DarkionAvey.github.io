@@ -1,4 +1,5 @@
 @import url(normalize.css);
+@import url('https://fonts.googleapis.com/css?family=Overpass+Mono&display=swap');
 /* ==========================================================================
    1. Icons - Sets up the icon font and respective classes
    ========================================================================== */
@@ -20,7 +21,7 @@
   text-decoration: none; }
 
 .icon-ghost-text {
-  font-family: monospace; }
+  font-family: 'Overpass Mono', monospace; }
 .icon-ghost:before {
   content: "\e000"; }
 .icon-feed:before {
@@ -44,7 +45,7 @@ html {
 body {
   height: 100%;
   max-height: 100%;
-  font-family: monospace;
+  font-family: 'Overpass Mono', monospace;
   font-size: 2.0rem;
   line-height: 1.6em;
   color: #eff3f7;
@@ -170,8 +171,7 @@ mark {
 
 code, tt {
   padding: 1px 3px;
-  /*font-family: Menlo, Consolas, Monaco, "Lucida Console", monospace;*/
-  font-family:  monospace;
+  font-family: 'Overpass Mono', monospace;
   font-size: 0.75em;
   white-space: pre;
   border: 1px solid #92959a;
@@ -184,8 +184,7 @@ pre {
   border: 1px solid #424a5a;
   width: 100%;
   padding: 10px;
-  /*font-family: Menlo, Consolas, Monaco, "Lucida Console", monospace;*/
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Overpass Mono', monospace;
   font-size: 0.8em;
   white-space: pre;
   overflow: auto;
@@ -468,7 +467,7 @@ button, input, select, textarea {
   width: 80%;
   max-width: 700px;
   margin: 4rem auto;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Overpass Mono', monospace;
   font-size: 1.3rem;
   color: #9EABB3;
   text-align: center; }
