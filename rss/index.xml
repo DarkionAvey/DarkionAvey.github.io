@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Darkion Avey]]></title><description><![CDATA[Various articles written by Darkion Avey throughout the years]]></description><link>https://DarkionAvey.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 19 Nov 2019 18:44:16 GMT</lastBuildDate><atom:link href="https://DarkionAvey.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Defect detection using MatLab]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Darkion Avey]]></title><description><![CDATA[Various articles written by Darkion Avey throughout the years]]></description><link>https://DarkionAvey.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 19 Nov 2019 18:44:24 GMT</lastBuildDate><atom:link href="https://DarkionAvey.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Defect detection using MatLab]]></title><description><![CDATA[<div class="paragraph">
 <p>This code detects any defect (e.g. textile or liquid defects) using image processing in different kinds of images.</p>
 </div>
 <div class="paragraph">
@@ -347,7 +347,215 @@ Running away with Justin (shooting Danny&#8217;s ankle) will teach Vince that sh
 <p>Russell becomes nervous when Tavia comes. Regardless of your previous choice regarding Nate&#8217;s fate, he won&#8217;t join Tavia unless she says "You might find people you know" as this will give him hope to find his family.</p>
 </div>
 </div>
-</div>]]></description><link>https://DarkionAvey.github.io/2013/07/12/The-Walking-Dead-400-days-guide-convincing-everyone-to-join-Tavia.html</link><guid isPermaLink="true">https://DarkionAvey.github.io/2013/07/12/The-Walking-Dead-400-days-guide-convincing-everyone-to-join-Tavia.html</guid><category><![CDATA[The Walking Dead]]></category><category><![CDATA[Games]]></category><dc:creator><![CDATA[Darkion Avey]]></dc:creator><pubDate>Fri, 12 Jul 2013 00:00:00 GMT</pubDate></item><item><title><![CDATA[Mass Effect 2: get Miranda's skin tone]]></title><description><![CDATA[<div class="sect1">
+</div>]]></description><link>https://DarkionAvey.github.io/2013/07/12/The-Walking-Dead-400-days-guide-convincing-everyone-to-join-Tavia.html</link><guid isPermaLink="true">https://DarkionAvey.github.io/2013/07/12/The-Walking-Dead-400-days-guide-convincing-everyone-to-join-Tavia.html</guid><category><![CDATA[The Walking Dead]]></category><category><![CDATA[Games]]></category><dc:creator><![CDATA[Darkion Avey]]></dc:creator><pubDate>Fri, 12 Jul 2013 00:00:00 GMT</pubDate></item><item><title><![CDATA[Mass Effect 3: comprehensive cheat guide (weapons/trainer/coalesced/robotic dog)]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Worried about your credits? worry no more! This Mass Effect guide shows you how to get unlimited credits, plus other goodies such as godmode, flying camera, robotic dog, heavy guns, and much more.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_prerequisites">Prerequisites</h3>
+<div class="paragraph">
+<p>You need Wenchy&#8217;s Mass Effect 3 Coalesced Editor, you can download it from the official website <a href="https://wenchy.net/me3-coalesced-utility/">here</a>. For robotic dog, you will need Gibbed&#8217;s Mass Effect 3 Save Editor. You can get the latest version from the official website <a href="http://svn.gib.me/builds/masseffect3/">here</a>. Before you start, it is recommeded that you backup your <code>Coalesced.bin</code> located in <code>&#8230;&#8203;\Mass Effect 3\BIOGame\CookedPCConsole</code> directory.</p>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_general_commands">General commands</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This section contains various general cheats which you might want to check out, such as unlimited ammo, health, credits, etc&#8230;&#8203;</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>First, open Wenchy&#8217;s Mass Effect 3 Coalesced Editor.</p>
+</li>
+<li>
+<p>Click <em>open</em> and then select your <code>coalesced.bin</code> file which is normally located in <code>.\Mass Effect 3\BIOGame\CookedPCConsole</code></p>
+</li>
+<li>
+<p>From the left menu, choose <code>bioinput.ini</code>, then <code>sfxgame</code>, and after that,  <code>sfxgamemodedefault</code>.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Note: After the V1.05 update, the codes must be placed in <code>sfxgamemodedefault</code> instead of <code>sfxgamemodebase</code>. If that doesn&#8217;t work, place the codes in both <code>sfxgamemodedefault</code> and <code>sfxgamemodebase</code></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="4">
+<li>
+<p>Add the following codes in <code>bindings</code> section:</p>
+<div class="literalblock">
+<div class="content">
+<pre>( Name="F1", Command="ENABLEPOWERCOOLDOWN 0" )
+( Name="F4", Command="initcredits 999999" )
+( Name="F2", Command="InitAmmo 9999" )
+( Name="F3", Command="God" )
+( Name="NumPadOne", Command="setparagon 0" )
+( Name="NumPadTwo", Command="setparagon 2000" )
+( Name="NumPadThree", Command="setrenegade 0" )
+( Name="NumPadFour", Command="setrenegade 2000" )
+( Name="NumPadFive", Command="GiveXP 1000" )
+( Name="NumPadSix", Command="ToggleFlyCam" )
+( Name="NumPadSeven", Command="SloMo 0.5" )
+( Name="NumPadEight", Command="SloMo 1" )
+( Name="NumPadNine", Command="SloMo 2" )
+( Name="NumPadZero", Command="ENABLEPOWERCOOLDOWN 1" )
+( Name="F8", Command="Screenshot" )</pre>
+</div>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>As you might have noticed already, each command is mapped to a key which you can modify to your liking. The setup above gives you the following options and their key triggers:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-xml" data-lang="xml">Key			Action
+===			======
+F1			No Power Cooling
+F2			Infinite Ammo
+F3			God Mode
+F4			Add 999999 Credits
+NumPad1		Set Paragon 0
+NumPad2		Set Paragon 2000
+NumPad3		Set Renegade 0
+NumPad4		Set Renegade 2000
+NumPad5		Add 1000 XP
+NumPad6		Flying Camera
+NumPad7		Set Speed to 0.5
+NumPad8		Set Speed to Normal
+NumPad9		Set Speed to 2.0
+NumPad0		Cooling Down On
+F8			Screenshot</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Note: screenshots are saved to <code>.\Documents\BioWare\Mass Effect 3\biogame\Screenshots</code></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_weapons">Weapons</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>In Mass Effect 3 story, you don&#8217;t get to use heavy weapons as often as you did in Mass Effect 2. Luckily, they did not remove them completely from the game, therefore, the following method is used to replace one of your equipped weapons with a weapon of your choice.</p>
+</div>
+<div class="paragraph">
+<p>To activate any of the listed weapons, add the following line under <code>bindings</code> section (as mentioned above):</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>( Name="F12", Command="giveitem self Cain" )</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>As you can tell, this command lets you obtain the weapon <code>Cain</code> by pressing <code>F12</code>. You can change these two to your liking.</p>
+</div>
+<div class="paragraph">
+<p>Below you will find a list of the weapons you can get (replace the word <code>Cain</code> in the command above)</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-xml" data-lang="xml">Weapon									Code
+======									====
+M-920 cain								Cain
+Reaper blackstar						Blackstar
+Geth spitfire							minigun
+M-451 firestorm (flamethrower)			Flamethrower_Player
+M-560 hydra (titan missile launcher)	titanmissilelauncher</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_other_cheats">Other cheats</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_one_hit_kill">One-hit kill</h3>
+<div class="paragraph">
+<p>Under <code>bioweapon.ini</code> &gt; <code>sfxgamecontent</code> &gt; <code>sfxweapon</code>, choose your desired weapon (for example, Cain), navigate to <code>damage</code> and change the X, Y values to something high like <code>999999</code>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_infinite_grenades">Infinite grenades</h3>
+<div class="paragraph">
+<p>You can assign this command to <code>bindings</code> as mentioned above.</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>( Name="F10", Command="Initgrenades 9999" )</pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_talent_points_level_up_points">Talent points (level-up points)</h3>
+<div class="paragraph">
+<p>You can assign this command to <code>bindings</code> as mentioned above. Change <code>1</code> to the number of talent points you want.</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>( Name="F10", Command="givetalentpoints 1" )</pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_ghost_mode_no_collision_mode">Ghost mode, no collision mode 👻</h3>
+<div class="paragraph">
+<p>This command allows you to bypass hidden walls. It is similar to TCL command in Skyrim.</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>( Name="F7", Command="Ghost" )
+( Name="F8", Command="walk" )</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>As you can tell, <code>F7</code> enables it, while <code>F8</code> disables it.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_unlockables">Unlockables</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_robotic_dog">Robotic dog 🐶</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Open Gibbed&#8217;s Mass Effect 3 Save Editor</p>
+</li>
+<li>
+<p>Navigate to the plot tab</p>
+</li>
+<li>
+<p>Enter the following code in the <em>Bool</em> tab: <code>21187</code>, and then press the <em>Get</em> button. You will notice that it is set to <code>False</code>, so set it back to <code>True</code> by pressing the <em>Set</em> button.</p>
+</li>
+<li>
+<p>Click on the <em>Save</em> button.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Load up the game. You will receive a new message at your private terminal regarding Sophie, the new dog.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_unlock_all_weapons">Unlock all weapons</h3>
+<div class="paragraph">
+<p>This command unlocks all weapons in the game and puts them in your inventory. I recommend that you use it when you are on the Normandy, otherwise, it is going to replace your current weapons <em>(temporarily)</em>. Press <code>F11</code> to trigger it.</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>( Name="F11", Command="giveitem self Avenger | giveitem self Revenant | giveitem self Collector | giveitem self AssaultRifle_Geth | giveitem self Vindicator | giveitem self Mattock | giveitem self Cobra | giveitem self Falcon | giveitem self Saber | giveitem self Argus | giveitem self Valkyrie | giveitem self Reckoning | giveitem self SMG_Shuriken | giveitem self Tempest | giveitem self Locust | giveitem self Hornet | giveitem self Hurricane | giveitem self Pistol_Predator | giveitem self Carnifex | giveitem self Phalanx | giveitem self Talon | giveitem self Thor | giveitem self Scorpion | giveitem self Ivory | giveitem self Eagle | giveitem self Shotgun_Katana | giveitem self Scimitar | giveitem self Claymore | giveitem self Eviscerator | giveitem self Shotgun_Geth | giveitem self Graal | giveitem self Disciple | giveitem self Striker | giveitem self Crusader | giveitem self Raider | giveitem self SniperRifle_Mantis | giveitem self Viper | giveitem self Widow | giveitem self Incisor | giveitem self Raptor | giveitem self Javelin | giveitem self BlackWidow | giveitem self Indra | giveitem self Valiant")</pre>
+</div>
+</div>
+</div>
+</div>
+</div>]]></description><link>https://DarkionAvey.github.io/2012/03/10/PC-Mass-Effect-3-Weapons-Cheats-Trainer-Coalesced.html</link><guid isPermaLink="true">https://DarkionAvey.github.io/2012/03/10/PC-Mass-Effect-3-Weapons-Cheats-Trainer-Coalesced.html</guid><category><![CDATA[Mass Effect]]></category><category><![CDATA[Games]]></category><category><![CDATA[Mod]]></category><dc:creator><![CDATA[Darkion Avey]]></dc:creator><pubDate>Sat, 10 Mar 2012 00:00:00 GMT</pubDate></item><item><title><![CDATA[Mass Effect 2: get Miranda's skin tone]]></title><description><![CDATA[<div class="sect1">
 <h2 id="_prerequisites">Prerequisites</h2>
 <div class="sectionbody">
 <div class="olist arabic">
