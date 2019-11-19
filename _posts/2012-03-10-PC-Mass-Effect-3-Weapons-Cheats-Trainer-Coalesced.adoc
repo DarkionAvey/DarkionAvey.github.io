@@ -1,0 +1,144 @@
+= Mass Effect 3: comprehensive cheat guide (weapons/trainer/coalesced/robotic dog)
+:published_at: 2012-03-10
+:hp-tags: Mass Effect, Games, Mod
+
+Worried about your credits? worry no more! This Mass Effect guide shows you how to get unlimited credits, plus other goodies such as godmode, flying camera, robotic dog, heavy guns, and much more.
+
+
+=== Prerequisites 
+You need Wenchy's Mass Effect 3 Coalesced Editor, you can download it from the official website https://wenchy.net/me3-coalesced-utility/[here]. For robotic dog, you will need Gibbed's Mass Effect 3 Save Editor. You can get the latest version from the official website http://svn.gib.me/builds/masseffect3/[here]. Before you start, it is recommeded that you backup your `Coalesced.bin` located in `...\Mass Effect 3\BIOGame\CookedPCConsole` directory.
+
+== General commands
+
+This section contains various general cheats which you might want to check out, such as unlimited ammo, health, credits, etc...
+
+
+. First, open Wenchy's Mass Effect 3 Coalesced Editor.
+. Click _open_ and then select your `coalesced.bin` file which is normally located in `C:\Program Files\Mass Effect 3\BIOGame\CookedPCConsole`
+. From the left menu, choose `bioinput.ini`, then `sfxgame`, and after that,  `sfxgamemodedefault`. 
+
+Note: After the V1.05 update, the codes must be placed in `sfxgamemodedefault` instead of `sfxgamemodebase`. If that doesn't work, place the codes in both `sfxgamemodedefault` and `sfxgamemodebase`
+[start=4]
+. Add the following codes in `bindings` section:
+
+ 
+	( Name="F1", Command="ENABLEPOWERCOOLDOWN 0" )
+	( Name="F4", Command="initcredits 999999" )
+	( Name="F2", Command="InitAmmo 9999" )
+	( Name="F3", Command="God" )
+	( Name="NumPadOne", Command="setparagon 0" )
+	( Name="NumPadTwo", Command="setparagon 2000" )
+	( Name="NumPadThree", Command="setrenegade 0" )
+	( Name="NumPadFour", Command="setrenegade 2000" )
+	( Name="NumPadFive", Command="GiveXP 1000" )
+	( Name="NumPadSix", Command="ToggleFlyCam" )
+	( Name="NumPadSeven", Command="SloMo 0.5" )
+	( Name="NumPadEight", Command="SloMo 1" )
+	( Name="NumPadNine", Command="SloMo 2" )
+	( Name="NumPadZero", Command="ENABLEPOWERCOOLDOWN 1" )
+	( Name="F8", Command="Screenshot" )
+	
+	
+As you might have noticed already, each command is mapped to a key which you can modify to your liking. The setup above gives you the following options and their key triggers:
+
+[source,xml]
+Key			Action
+===			======
+F1			No Power Cooling
+F2			Infinite Ammo
+F3			God Mode
+F4			Add 999999 Credits
+NumPad1		Set Paragon 0
+NumPad2		Set Paragon 2000
+NumPad3		Set Renegade 0
+NumPad4		Set Renegade 2000
+NumPad5		Add 1000 XP
+NumPad6		Flying Camera
+NumPad7		Set Speed to 0.5
+NumPad8		Set Speed to Normal
+NumPad9		Set Speed to 2.0
+NumPad0		Cooling Down On
+F8			Screenshot
+
+
+Note: screenshots are saved to ` ...\Documents\BioWare\Mass Effect 3\biogame\ Screenshots`
+
+== Weapons 
+In Mass Effect 3 story, you don't get to use heavy weapons as often as you did in Mass Effect 2. Luckily, they did not remove them completely from the game, therefore, the following method is used to replace one of your equipped weapons with a weapon of your choice.
+
+To activate any of the listed weapons, add the following line under `bindings` section (as mentioned above):
+
+
+	( Name="F12", Command="giveitem self Cain" )
+
+
+As you can tell, this command lets you obtain the weapon `Cain` by pressing `F12`. You can change these two to your liking. 
+
+Below you will find a list of the weapons you can get (replace the word `Cain` in the command above)
+[source,xml]
+Weapon									Code
+======									====
+M-920 cain								Cain
+Reaper blackstar						Blackstar
+Geth spitfire							minigun
+M-451 firestorm (flamethrower)			Flamethrower_Player
+M-560 hydra (titan missile launcher)	titanmissilelauncher
+	
+	
+
+
+== Other cheats
+
+=== One-hit kill
+Under `bioweapon.ini` > `sfxgamecontent` > `sfxweapon`, choose your desired weapon (for example, Cain), navigate to `damage` and change the X, Y values to something high like `999999`.
+
+
+=== Infinite grenades
+You can assign this command to `bindings` as mentioned above.
+
+		( Name="F10", Command="Initgrenades 9999" )
+		
+		
+		
+=== Talent points (level-up points)
+You can assign this command to `bindings` as mentioned above. Change `1` to the number of talent points you want.
+
+
+	( Name="F10", Command="givetalentpoints 1" )
+	
+	
+=== Ghost mode, no collision mode
+This command allows you to bypass hidden walls. It is similar to TCL command in Skyrim.
+
+		( Name="F7", Command="Ghost" )
+		( Name="F8", Command="walk" )
+
+
+As you can tell, `F7` enables it, while `F8` disables it.
+
+
+== Unlockables
+
+=== Robotic dog
+
+. Open Gibbed's Mass Effect 3 Save Editor
+. Navigate to the plot tab
+
+. Enter the following code in the _Bool_ tab: `21187`, and then press the _Get_ button. You will notice that it is set to `False`, so set it back to `True` by pressing the _Set_ button.
+
+. Click on the _Save_ button.
+
+Load up the game. You will receive a new message at your private terminal regarding Sophie, the new dog.
+
+
+=== Unlock all weapons
+
+This command unlocks all weapons in the game and puts them in your inventory. I recommend that you use it when you are on the Normandy, otherwise, it is going to replace your current weapons _(temporarily)_. Press `F11` to trigger it. 
+
+	
+		( Name="F11", Command="giveitem self Avenger | giveitem self Revenant | giveitem self Collector | giveitem self AssaultRifle_Geth | giveitem self Vindicator | giveitem self Mattock | giveitem self Cobra | giveitem self Falcon | giveitem self Saber | giveitem self Argus | giveitem self Valkyrie | giveitem self Reckoning | giveitem self SMG_Shuriken | giveitem self Tempest | giveitem self Locust | giveitem self Hornet | giveitem self Hurricane | giveitem self Pistol_Predator | giveitem self Carnifex | giveitem self Phalanx | giveitem self Talon | giveitem self Thor | giveitem self Scorpion | giveitem self Ivory | giveitem self Eagle | giveitem self Shotgun_Katana | giveitem self Scimitar | giveitem self Claymore | giveitem self Eviscerator | giveitem self Shotgun_Geth | giveitem self Graal | giveitem self Disciple | giveitem self Striker | giveitem self Crusader | giveitem self Raider | giveitem self SniperRifle_Mantis | giveitem self Viper | giveitem self Widow | giveitem self Incisor | giveitem self Raptor | giveitem self Javelin | giveitem self BlackWidow | giveitem self Indra | giveitem self Valiant")
+
+
+
+
+
