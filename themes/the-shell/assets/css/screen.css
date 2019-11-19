@@ -171,10 +171,10 @@ mark {
 code, tt {
   padding: 1px 3px;
   /*font-family: Menlo, Consolas, Monaco, "Lucida Console", monospace;*/
-  font-family: "Courier New", Courier, monospace;
+  font-family:  monospace;
   font-size: 0.75em;
   white-space: pre;
-  border: 1px solid #424a5a;
+  border: 1px solid #92959a;
   background: #0a0c0e;
   border-radius: 2px; }
 
