@@ -1,0 +1,22 @@
+= Building a gesture-friendly spinner for Android
+:published_at: 2018-12-10
+:hp-tags: Android
+
+Sometimes one is so lazy that lifting a finger becomes a chore. I guess Google has foreseen this ever since they introduced "swipe-to-open" overflow menu in KitKat. Few days ago, I came across an interesting concept which applies the gesture philosophy on the spinner widget. The concept shows that the user can change the value of the widget just by dragging the widget itself up or down. _Oleg_, the author, implemented subtle elastic feedback animation when the user releases the widget after dragging. 
+
+
+image::https://assets.materialup.com/uploads/223613ca-dae8-4256-838a-413ccdd98ac1/preview.gif[Stepper XVI by Oleg Frolov]
+
+I feel in love with this concept, so I had to recreate it into a real widget for Android. 
+
+== SwipeSpinnerWidget
+It is a fact that Android development arena is saturated with _-deprecated-_ widgets which incorporate custom implementation of existing functions. I personally think over-complicating simple widgets leads to premature deprecation, and increases incompatibility issues; not to mention lack of proper documentation. Therefore, I decided to code the concept on top of RecyclerView. It may seem like an over kill, but I figured that if I used RecyclerView, people would be able to use it on top of their existing adapters without having to change anything, plus I don't have to worry about compatibility with older Android versions. I'm also fan of one-class libraries, since they can be easily downloaded and integrated into projects, specially in the case of simple widgets. 
+
+Fast-forward couple of days later, I was able to recreate Oleg's concept by using `RecyclerView.OnItemTouchListener` implementation. Overall, I think it turned out nicely. Simple, light, sustainable, and one-classer. 
+
+
+image::https://github.com/DarkionAvey/SwipeSpinnerWidget/raw/master/preview.gif[SwipeSpinnerWidget demo]
+
+
+You can check out the library https://github.com/DarkionAvey/SwipeSpinnerWidget[here]
+
