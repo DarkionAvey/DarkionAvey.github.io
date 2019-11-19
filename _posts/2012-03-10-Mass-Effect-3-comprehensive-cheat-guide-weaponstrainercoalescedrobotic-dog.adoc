@@ -6,7 +6,7 @@ Worried about your credits? worry no more! This Mass Effect guide shows you how 
 
 
 === Prerequisites 
-You have to download Wenchy's Mass Effect 3 Coalesced Editor, you can download it from the official website https://wenchy.net/me3-coalesced-utility/[here]. For robotic dog, you will need Gibbed's Mass Effect 3 Save Editor. You can get the latest version from the official website http://svn.gib.me/builds/masseffect3/[here]. Before you start, it is recommeded that you backup your `Coalesced.bin` located in `...\Mass Effect 3\BIOGame\CookedPCConsole` directory.
+You need Wenchy's Mass Effect 3 Coalesced Editor, you can download it from the official website https://wenchy.net/me3-coalesced-utility/[here]. For robotic dog, you will need Gibbed's Mass Effect 3 Save Editor. You can get the latest version from the official website http://svn.gib.me/builds/masseffect3/[here]. Before you start, it is recommeded that you backup your `Coalesced.bin` located in `...\Mass Effect 3\BIOGame\CookedPCConsole` directory.
 
 == General commands
 
@@ -15,7 +15,7 @@ This section contains various general cheats which you might want to check out, 
 
 . First, open Wenchy's Mass Effect 3 Coalesced Editor.
 . Click _open_ and then select your `coalesced.bin` file which is normally located in `C:\Program Files\Mass Effect 3\BIOGame\CookedPCConsole`
-. From the left menu, choose _bioinput.ini_, then `sfxgame`, and after that,  `sfxgamemodedefault`. 
+. From the left menu, choose `bioinput.ini`, then `sfxgame`, and after that,  `sfxgamemodedefault`. 
 
 Note: After the V1.05 update, the codes must be placed in `sfxgamemodedefault` instead of `sfxgamemodebase`. If that doesn't work, place the codes in both `sfxgamemodedefault` and `sfxgamemodebase`
 [start=4]
@@ -41,23 +41,24 @@ Note: After the V1.05 update, the codes must be placed in `sfxgamemodedefault` i
 	
 As you might have noticed already, each command is mapped to a key which you can modify to your liking. The setup above gives you the following options and their key triggers:
 
- Key		Action
- ===		======
-	F1		No Power Cooling
-	F2		Infinite Ammo
-	F3		God Mode
-	F4		Add 999999 Credits
-	NumPad1		Set Paragon 0
-	NumPad2		Set Paragon 2000
-	NumPad3		Set Renegade 0
-	NumPad4		Set Renegade 2000
-	NumPad5		Add 1000 XP
-	NumPad6		Flying Camera
-	NumPad7		Set Speed to 0.5
-	NumPad8		Set Speed to Normal
-	NumPad9		Set Speed to 2.0
-	NumPad0		Cooling Down On
-	F8		Screenshot
+[source,xml]
+Key			Action
+===			======
+F1			No Power Cooling
+F2			Infinite Ammo
+F3			God Mode
+F4			Add 999999 Credits
+NumPad1		Set Paragon 0
+NumPad2		Set Paragon 2000
+NumPad3		Set Renegade 0
+NumPad4		Set Renegade 2000
+NumPad5		Add 1000 XP
+NumPad6		Flying Camera
+NumPad7		Set Speed to 0.5
+NumPad8		Set Speed to Normal
+NumPad9		Set Speed to 2.0
+NumPad0		Cooling Down On
+F8			Screenshot
 
 
 Note: screenshots are saved to ` ...\Documents\BioWare\Mass Effect 3\biogame\ Screenshots`
@@ -71,18 +72,18 @@ To activate any of the listed weapons, add the following line under `bindings` s
 	( Name="F12", Command="giveitem self Cain" )
 
 
-As you can tell, this command lets you obtain the weapon _Cain_ by pressing `F12`. You can change these two to your liking. 
+As you can tell, this command lets you obtain the weapon `Cain` by pressing `F12`. You can change these two to your liking. 
 
 Below you will find a list of the weapons you can get (replace the word `Cain` in the command above)
-
-
- Weapon					Code
- ======					====
-	M-920 cain				Cain
-	Reaper blackstar			Blackstar
-	Geth spitfire				minigun
-	M-451 firestorm (flamethrower)		Flamethrower_Player
-	M-560 hydra (titan missile launcher)	titanmissilelauncher
+[source,xml]
+Weapon									Code
+======									====
+M-920 cain								Cain
+Reaper blackstar						Blackstar
+Geth spitfire							minigun
+M-451 firestorm (flamethrower)			Flamethrower_Player
+M-560 hydra (titan missile launcher)	titanmissilelauncher
+	
 	
 
 
@@ -136,14 +137,6 @@ This command unlocks all weapons in the game and puts them in your inventory. I 
 
 	
 		( Name="F11", Command="giveitem self Avenger | giveitem self Revenant | giveitem self Collector | giveitem self AssaultRifle_Geth | giveitem self Vindicator | giveitem self Mattock | giveitem self Cobra | giveitem self Falcon | giveitem self Saber | giveitem self Argus | giveitem self Valkyrie | giveitem self Reckoning | giveitem self SMG_Shuriken | giveitem self Tempest | giveitem self Locust | giveitem self Hornet | giveitem self Hurricane | giveitem self Pistol_Predator | giveitem self Carnifex | giveitem self Phalanx | giveitem self Talon | giveitem self Thor | giveitem self Scorpion | giveitem self Ivory | giveitem self Eagle | giveitem self Shotgun_Katana | giveitem self Scimitar | giveitem self Claymore | giveitem self Eviscerator | giveitem self Shotgun_Geth | giveitem self Graal | giveitem self Disciple | giveitem self Striker | giveitem self Crusader | giveitem self Raider | giveitem self SniperRifle_Mantis | giveitem self Viper | giveitem self Widow | giveitem self Incisor | giveitem self Raptor | giveitem self Javelin | giveitem self BlackWidow | giveitem self Indra | giveitem self Valiant")
-
-
-
-
-
-
-
-
 
 
 
