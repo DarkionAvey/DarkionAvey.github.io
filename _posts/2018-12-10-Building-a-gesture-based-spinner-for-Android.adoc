@@ -1,4 +1,4 @@
-= Building a gesture-friendly spinner for Android
+= Building a gesture-based spinner for Android
 :published_at: 2018-12-10
 :hp-tags: Android
 
